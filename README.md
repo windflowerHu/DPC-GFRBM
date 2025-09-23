@@ -1,0 +1,2 @@
+This repository provides clear instructions and a step-by-step guide to reproduce the experimental results reported in the ICSOC2025 paper: Privacy-Preserving Revenue Prediction in Service-Oriented Industrial Supply Chains. All related code, datasets, and documentation are hosted on GitHub: https://github.com/windflowerHu/DPC-GFRBM/.
+For additional details and explanations, please refer to the README.pdf document included in the repository.
