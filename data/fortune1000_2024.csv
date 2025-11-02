@@ -1,0 +1,964 @@
+Rank,Company,股票代码,部门,行业,盈利,Founder_is_CEO,FemaleCEO,Growth_in_Jobs,Change_in_Rank,Gained_in_Rank,Dropped_in_Rank,Global500,Worlds_Most_Admired_Companies,Best_Companies_to_Work_For,Number_of_employees,MarketCap_March28_M,Revenues_M,RevenuePercentChange,Profits_M,ProfitsPercentChange,资产,更新市值
+1,Walmart,WMT,Retailing,General Merchandisers,1,0,0,0,0,0,0,1,1,1,2100000,484852.8,648125,6,15511,32.8,252399,559911
+2,Amazon,AMZN,Retailing,Internet Services and Retailing,1,0,0,0,0,0,0,1,1,0,1525000,1873675.8,574785,11.8,30425,,527854,2005565
+3,Apple,AAPL,Tech0logy,"Computers, Office Equipment",1,0,0,0,1,1,0,1,1,0,161000,2647973.8,383285,-2.8,96995,-2.8,352583,3594309
+4,UnitedHealth Group,UNH,Health Care,Health Care: Insurance and Managed Care,1,0,0,1,1,1,0,1,1,0,440000,456080.8,371622,14.6,22381,11.2,273720,474339
+5,Berkshire Hathaway,BRKA,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,2,1,0,1,1,0,396500,908919.7,364482,20.7,96223,,1069978,937028
+6,CVS Health,CVS,Health Care,Health Care: Pharmacy and Other Services,1,0,1,0,0,0,0,1,1,0,259500,100373.9,357776,10.9,8344,101.1,249728,73653
+7,Exxon Mobil,XOM,Energy,Petroleum Refining,1,0,0,0,-4,0,1,1,0,0,61500,461222.2,344582,-16.7,36010,-35.4,376317,516824
+8,Alphabet,GOOGL,Tech0logy,Internet Services and Retailing,1,0,0,0,0,0,0,1,1,0,182502,1884633,307394,8.7,73795,23,402392,2315182
+9,McKesson,MCK,Health Care,Wholesalers: Health Care,1,0,0,0,0,0,0,1,0,0,48000,70546.5,276711,4.8,3560,219.6,62320,75007
+10,Cencora,COR,Health Care,Wholesalers: Health Care,1,0,0,1,1,1,0,1,0,0,44000,48472.1,262173.4,9.9,1745.3,2.7,62558.7,43758
+11,Costco Wholesale,COST,Retailing,General Merchandisers,1,0,0,1,1,1,0,1,1,0,316000,324924.4,242290,6.8,6292,7.7,68994,376272
+12,JPMorgan Chase,JPM,Financials,Commercial Banks,1,0,0,1,11,1,0,1,1,0,309926,576938.4,239425,54.7,49552,31.5,3875393,603194
+13,Microsoft,MSFT,Tech0logy,Computer Software,1,0,0,0,0,0,0,1,1,0,221000,3126133.1,211915,6.9,72361,-0.5,411976,3373970
+14,Cardinal Health,CAH,Health Care,Wholesalers: Health Care,1,0,0,1,0,0,0,1,0,0,47520,27217.8,205012,13,261,,43417,22832
+15,Chevron,CVX,Energy,Petroleum Refining,1,0,0,1,-5,0,1,1,0,0,45600,292965.6,200949,-18.4,21369,-39.7,261632,291950
+16,Cigna,CI,Health Care,Health Care: Pharmacy and Other Services,1,0,0,1,-1,0,1,1,0,0,71413,103017.9,195265,8.2,5164,-22.6,152761,94148
+17,Ford Motor,F,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,1,2,1,0,1,0,0,177000,53017.8,176191,11.5,4347,,273310,56811
+18,Bank of America,BAC,Financials,Commercial Banks,1,0,0,0,14,1,0,1,1,1,212985,299213,171912,49.4,26515,-3.7,3180151,327595
+19,General Motors,GM,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,1,0,2,1,0,1,0,0,163000,52353.5,171842,9.6,10127,1.9,273064,56222
+20,Elevance Health,ELV,Health Care,Health Care: Insurance and Managed Care,1,0,1,1,2,1,0,1,1,1,104900,120619.6,171340,9.4,5987,-0.6,108928,123335
+21,Citigroup,C,Financials,Commercial Banks,1,0,1,0,15,1,0,1,0,0,237925,121122.2,156820,55.1,9228,-37.8,2411834,124251
+22,Centene,CNC,Health Care,Health Care: Insurance and Managed Care,1,0,1,0,3,1,0,1,1,0,67700,41979.4,153999,6.5,2702,124.8,84641,35221
+23,Home Depot,HD,Retailing,Specialty Retailers: Other,1,0,0,0,-3,0,1,1,1,0,463100,380153.7,152669,-3,15143,-11.5,76530,355454
+24,Marathon Petroleum,MPC,Energy,Petroleum Refining,1,0,0,1,-8,0,1,1,0,0,18200,72607.7,150307,-16.5,9681,-33.3,85987,58737
+25,Kroger,KR,Food & Drug Stores,Food & Drug Stores,1,0,0,0,-1,0,1,1,0,0,414000,41100.7,150039,1.2,2164,-3.6,50505,37620
+26,Phillips 66,PSX,Energy,Petroleum Refining,1,0,0,1,-9,0,1,1,0,0,14000,69880.8,149890,-14.7,7015,-36.4,75501,59383
+27,Fannie Mae,FNMA,Financials,Diversified Financials,1,0,1,1,1,1,0,1,0,0,8100,1818.2,141240,16.2,17408,34.7,4325437,8585
+28,Walgreens Boots Alliance,WBA,Food & Drug Stores,Food & Drug Stores,0,0,0,1,-1,0,1,1,0,0,268500,18712.3,139081,4.8,-3080,-171,96628,10100
+29,Valero Energy,VLO,Energy,Petroleum Refining,1,0,0,1,-11,0,1,1,0,0,9897,56234.5,139001,-18.8,8835,-23.4,63056,48641
+30,Meta Platforms,META,Tech0logy,Internet Services and Retailing,1,1,0,0,1,1,0,1,1,0,67317,1237940.1,134902,15.7,39098,68.5,229623,1258678
+31,Verizon Communications,VZ,Telecommunications,Telecommunications,1,0,0,0,-5,0,1,1,1,0,105400,176651.6,133974,-2.1,11614,-45.4,380255,171696
+32,AT&T,T,Telecommunications,Telecommunications,1,0,0,0,-2,0,1,1,1,0,150470,125889.1,122428,1.4,14400,,407060,133222
+33,Comcast,CMCSA,Telecommunications,Telecommunications,1,0,0,0,-4,0,1,1,1,1,186000,172180,121572,0.1,15388,186.6,264811,152786
+34,Wells Fargo,WFC,Financials,Commercial Banks,1,0,0,0,13,1,0,1,0,0,226000,205201.8,115340,39.2,19142,45.2,1932468,201265
+35,Goldman Sachs Group,GS,Financials,Commercial Banks,1,0,0,0,20,1,0,1,1,0,45300,135551.7,108418,57.8,8516,-24.4,1641594,164412
+36,Freddie Mac,FMCC,Financials,Diversified Financials,1,0,0,1,9,1,0,1,0,0,8020,877.6,108050,24.6,10538,13,3280976,4528
+37,Target,TGT,Retailing,General Merchandisers,1,0,0,0,-4,0,1,1,1,1,415000,81816.1,107412,-1.6,4138,48.8,55356,69997
+38,Humana,HUM,Health Care,Health Care: Insurance and Managed Care,1,0,0,1,4,1,0,1,1,0,67600,41796.7,106374,14.5,2489,-11.3,47065,46298
+39,Tesla,TSLA,Motor Vehicles & Parts,Motor Vehicles & Parts,1,1,0,1,10,1,0,1,0,0,140473,559854.3,96773,18.8,14997,19.4,106618,805719
+40,Morgan Stanley,MS,Financials,Commercial Banks,1,0,0,0,20,1,0,1,1,0,80006,153976.9,96194,45.9,9087,-17.6,1193693,171065
+41,Johnson & Johnson,JNJ,Health Care,Pharmaceuticals,1,0,0,0,-2,0,1,1,1,0,131900,381203.6,95195,0.3,35153,95.9,167558,359173
+42,Archer Daniels Midland,ADM,"Food, Beverages & Tobacco",Food Production,1,0,0,0,-8,0,1,1,1,0,41008,32023.6,93935,-7.5,3483,-19.7,54631,31347
+43,PepsiCo,PEP,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,1,2,1,0,1,1,0,318000,240552.8,91471,5.9,9074,1.8,100495,225074
+44,United Parcel Service,UPS,Transportation,"Mail, Package, and Freight Delivery",1,0,1,0,-8,0,1,1,1,0,382550,126828.9,90958,-9.3,6708,-41.9,70857,123329
+45,FedEx,FDX,Transportation,"Mail, Package, and Freight Delivery",1,0,0,0,-5,0,1,1,1,0,446400,71299.4,90155,-3.6,3972,3.8,87143,74517
+46,Walt Disney,DIS,Media,Entertainment,1,0,0,1,1,1,0,1,1,0,199125,224445.2,88898,7.5,2354,-25.2,205579,176598
+47,Dell Tech0logies,DELL,Tech0logy,"Computers, Office Equipment",1,1,0,0,-14,0,1,1,1,0,120000,81450.6,88425,-13.6,3211,31.5,82089,97331
+48,Lowe's,LOW,Retailing,Specialty Retailers: Other,1,0,0,0,-10,0,1,1,1,0,226000,145752.5,86377,-11,7726,20,41795,132299
+49,Procter & Gamble,PG,Household Products,Household and Personal Products,1,0,0,1,1,1,0,1,1,0,107000,381777.7,82006,2.3,14653,-0.6,120829,388431
+50,Energy Transfer,ET,Energy,Pipelines,1,0,0,1,-8,0,1,1,0,0,13786,52974.8,78586,-12.6,3935,-17.3,113698,55235
+51,Boeing,BA,Aerospace & Defense,Aerospace & Defense,0,0,0,1,6,1,0,1,1,0,171000,117750,77794,16.8,-2222,,137012,109953
+52,Albertsons,ACI,Food & Drug Stores,Food & Drug Stores,1,0,0,1,0,0,0,1,0,0,198650,12350.3,77649.7,8,1513.5,-6.6,26168.2,11333
+53,Sysco,SYY,Wholesalers,Wholesalers: Food and Grocery,1,0,0,1,2,1,0,1,0,0,71750,40413.8,76324.7,11.2,1770.1,30.3,22821.1,35755
+54,RTX,RTX,Aerospace & Defense,Aerospace & Defense,1,0,0,1,2,1,0,1,1,0,185000,129680.3,68920,2.8,3195,-38.5,161869,135104
+55,General Electric,GE,Industrials,Industrial Machinery,1,0,0,0,-4,0,1,1,0,0,125000,191901.2,67954,-11.2,9481,4113.8,163045,174655
+56,Lockheed Martin,LMT,Aerospace & Defense,Aerospace & Defense,1,0,0,1,3,1,0,1,1,0,122000,109394.2,67571,2.4,6920,20.7,52456,111303
+57,American Express,AXP,Financials,Diversified Financials,1,0,0,0,19,1,0,1,1,1,74600,163945.6,67364,21.1,8374,11.4,261108,175510
+58,Caterpillar,CAT,Industrials,Construction and Farm Machinery,1,0,0,1,9,1,0,1,1,0,113200,182986.8,67060,12.8,10335,54.1,87476,169100
+59,MetLife,MET,Financials,"Insurance: Life, Health (stock)",1,0,0,0,-6,0,1,1,1,1,45000,53583,66905,-4.3,1578,-37.8,687584,52929
+60,HCA Healthcare,HCA,Health Care,Health Care: Medical Facilities,1,0,0,1,5,1,0,1,1,0,265000,88213.8,64968,7.9,5242,-7.1,56211,83022
+61,Progressive,PGR,Financials,Insurance: Property and Casualty (Stock),1,0,1,1,26,1,0,1,1,1,61432,121134.1,62108.5,25.2,3902.4,440.9,88690.8,127155
+62,IBM,IBM,Tech0logy,Information Tech0logy Services,1,0,0,0,2,1,0,1,1,0,296600,175061.6,61860,2.2,7502,357.7,135241,167994
+63,Deere,DE,Industrials,Construction and Farm Machinery,1,0,0,1,17,1,0,1,1,0,82956,114332.9,61251,16.5,10166,42.6,104087,102421
+64,Nvidia,NVDA,Tech0logy,Semiconductors and Other Electronic Components,1,1,0,1,87,1,0,0,1,1,29600,2258900,60922,125.9,29760,581.3,65728,3159624
+65,StoneX Group,SNEX,Financials,Diversified Financials,1,0,0,1,-7,0,1,1,0,0,4137,2216.7,60856.1,-7.8,238.5,15.2,21938.7,2516
+66,Merck,MRK,Health Care,Pharmaceuticals,1,0,0,1,2,1,0,1,1,1,71000,334182.4,60115,1.4,365,-97.5,106675,324503
+67,Co0coPhillips,COP,Energy,"Mining, Crude-Oil Production",1,0,0,1,-19,0,1,1,0,0,9900,149733.3,58574,-28.7,10957,-41.3,95924,133994
+68,Pfizer,PFE,Health Care,Pharmaceuticals,1,0,0,1,-31,0,1,1,1,0,88000,157135.5,58496,-41.7,2119,-93.2,226501,164898
+69,Delta Air Lines,DAL,Transportation,Airlines,1,0,0,1,15,1,0,1,1,1,103000,30795.9,58048,14.8,4609,249.7,73644,27753
+70,TD Synnex,SNX,Wholesalers,Wholesalers: Electronics and Office Equipment,1,0,0,0,-7,0,1,1,1,0,28000,9856.6,57555.4,-7.7,626.9,-3.7,29412.8,9836
+71,Allstate,ALL,Financials,Insurance: Property and Casualty (Stock),0,0,0,0,11,1,0,1,1,0,53200,45513.3,57094,11.1,-188,,103362,44050
+72,Cisco Systems,CSCO,Tech0logy,Network and Other Communications Equipment,1,0,0,1,8,1,0,1,0,1,84900,202094.9,56998,10.6,12613,6.8,101852,191932
+73,Charter Communications,CHTR,Telecommunications,Telecommunications,1,0,0,0,3,1,0,1,0,0,101100,51316,54607,1.1,4557,-9.9,147193,52350
+74,AbbVie,ABBV,Health Care,Pharmaceuticals,1,0,0,0,-4,0,1,1,1,1,50000,322434.8,54318,-6.4,4863,-58.9,134711,296719
+75,Intel,INTC,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,-17,0,1,1,0,0,124800,188026,54228,-14,1689,-78.9,191572,146692
+76,TJX,TJX,Retailing,Specialty Retailers: Apparel,1,0,0,1,7,1,0,1,1,0,349000,115586,54217,8.6,4474,27.9,29747,128622
+77,Prudential Financial,PRU,Financials,"Insurance: Life, Health (stock)",1,0,0,1,-14,0,1,1,1,0,40366,42191.2,53979,-10.1,2488,,721123,45069
+78,HP,HPQ,Tech0logy,"Computers, Office Equipment",1,0,0,0,-19,0,1,1,1,1,58000,29569.7,53718,-14.6,3263,4.2,37004,36539
+79,United Airlines Holdings,UAL,Transportation,Airlines,1,0,0,1,13,1,0,1,1,0,103300,15705.9,53717,19.5,2618,255.2,71104,14573
+80,Performance Food Group,PFGC,Wholesalers,Wholesalers: Food and Grocery,1,0,0,0,7,1,0,1,0,0,34825,11612.9,53354.7,13.1,397.2,253.1,12499,9951
+81,Tyson Foods,TSN,"Food, Beverages & Tobacco",Food Production,0,0,0,0,-5,0,1,1,0,0,139000,20928.3,52881,-0.8,-648,-120,36251,20461
+82,American Airlines Group,AAL,Transportation,Airlines,1,0,0,1,3,1,0,1,0,0,132100,10050.5,52788,7.8,822,547.2,63058,6947
+83,Nike,NKE,Apparel,Apparel,1,0,0,1,5,1,0,1,1,0,83700,142391.2,51217,9.6,5070,-16.1,37531,107632
+84,Oracle,ORCL,Tech0logy,Computer Software,1,0,1,1,12,1,0,1,1,0,164000,345240.8,49954,17.7,8503,26.6,134384,394281
+85,Enterprise Products Partners,EPD,Energy,Pipelines,1,0,0,1,-18,0,1,1,0,0,7500,63269.4,49715,-14.6,5532,0.8,70982,64278
+86,Capital One Financial,COF,Financials,Commercial Banks,1,1,0,0,15,1,0,1,1,1,51987,56891.2,49484,29,4887,-33.6,478464,55230
+87,Plains GP Holdings,PAGP,Energy,Pipelines,1,0,0,1,-18,0,1,1,0,0,4200,3597.5,48712,-15.1,198,17.9,28597,3862
+88,World Kinect,WKC,Energy,Energy,1,0,0,1,-23,0,1,1,0,0,5289,1583,47710.6,-19.2,52.9,-53.6,7375.3,1579
+89,AIG,AIG,Financials,Insurance: Property and Casualty (Stock),1,0,0,0,-18,0,1,1,0,0,25200,53230.1,46802,-17.1,3643,-64.5,539306,51514
+90,Coca-Cola,KO,"Food, Beverages & Tobacco",Beverages,1,0,0,0,5,1,0,1,1,0,79100,263758.6,45754,6.4,10714,12.3,97703,273167
+91,Bristol-Myers Squibb,BMY,Health Care,Pharmaceuticals,1,0,0,0,-3,0,1,1,1,0,34100,109911.1,45006,-2.5,8025,26.8,95159,81388
+92,Dow,DOW,Chemicals,Chemicals,1,0,0,0,-24,0,1,1,1,1,35900,40740.3,44622,-21.6,589,-87.1,57967,37463
+93,Best Buy,BBY,Retailing,Specialty Retailers: Other,1,0,1,1,-6,0,1,1,1,0,85000,17667.7,43452,-6.1,1241,-12.5,14967,18444
+94,Thermo Fisher Scientific,TMO,Tech0logy,"Scientific,Photographic and  Control Equipment",1,0,0,0,-4,0,1,1,1,0,122000,221622.5,42857,-4.6,5995,-13.7,98726,207913
+95,General Dynamics,GD,Aerospace & Defense,Aerospace & Defense,1,0,1,1,1,1,0,1,1,0,111600,77506.3,42272,7.3,3315,-2.2,54810,78309
+96,Travelers,TRV,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,7,1,0,1,1,0,33133,52731,41364,12.1,2991,5.2,125978,48867
+97,Warner Bros. Discovery,WBD,Media,Entertainment,0,0,0,0,12,1,0,1,0,0,35300,21298.5,41321,22.2,-3126,,122757,18181
+98,U.S. Bancorp,USB,Financials,Commercial Banks,1,0,0,0,42,1,0,0,1,0,75465,69656.5,40624,48.3,5429,-6.8,663491,66086
+99,Abbott Laboratories,ABT,Health Care,Medical Products and Equipment,1,0,0,0,-9,0,1,1,1,0,114000,197221,40109,-8.1,5723,-17.5,73214,179113
+100,0rthrop Grumman,0C,Aerospace & Defense,Aerospace & Defense,1,0,1,1,4,1,0,1,1,0,101000,70908.8,39290,7.3,2056,-58,46544,63920
+101,Dollar General,DG,Retailing,Specialty Retailers: Other,1,0,0,1,-3,0,1,1,0,0,185800,34281.9,38691.6,2.2,1661.3,-31.2,30795.6,27918
+102,PBF Energy,PBF,Energy,Petroleum Refining,1,0,0,1,-20,0,1,1,0,0,3776,6860.3,38324.8,-18.2,2140.5,-25.6,14387.8,4790
+103,Uber Tech0logies,UBER,Tech0logy,Internet Services and Retailing,1,0,0,0,14,1,0,1,1,0,30400,160258.1,37281,17,1887,,38699,151051
+104,Honeywell International,HON,Industrials,Industrial Machinery,1,0,0,0,1,1,0,1,1,0,95000,133860.3,36662,3.4,5658,13.9,61525,140474
+105,Mondelez International,MDLZ,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,0,16,1,0,1,1,0,91000,94253.4,36016,14.4,4959,82.5,71391,86317
+106,Starbucks,SBUX,"Hotels, Restaurants & Leisure",Food Services,1,0,0,0,9,1,0,1,1,0,381000,103471.8,35975.6,11.6,4124.5,25.7,29445.5,82404
+107,Qualcomm,QCOM,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,-19,0,1,1,1,0,50000,188938.8,35820,-19,7232,-44.1,51040,232329
+108,Broadcom,AVGO,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,5,1,0,1,0,0,20000,614223.1,35819,7.9,14082,22.5,72861,797940
+109,US Foods Holding,USFD,Wholesalers,Wholesalers: Food and Grocery,1,0,0,1,-2,0,1,1,0,0,30000,13217.4,35597,4.5,506,90.9,13187,12829
+110,D.R. Horton,DHI,Engineering & Construction,Homebuilders,1,0,0,1,0,0,0,1,1,0,13450,54600.5,35460.4,5.9,4745.7,-19,32582.4,50108
+111,Philip Morris International,PM,"Food, Beverages & Tobacco",Tobacco,1,0,0,1,7,1,0,1,0,0,82700,142428,35174,10.7,7813,-13.6,65304,163337
+112,Paccar,PCAR,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,1,18,1,0,0,0,0,32400,64919.7,35127.4,21.9,4600.8,52.8,40823.4,54799
+113,Salesforce,CRM,Tech0logy,Computer Software,1,1,0,0,10,1,0,1,1,1,72682,292144.6,34857,11.2,4136,1888.5,99823,245021
+114,Nucor,NUE,Materials,Metals,1,0,0,1,-22,0,1,1,1,0,32000,47492,34713.5,-16.4,4524.8,-40.5,35340.5,39530
+115,Jabil,JBL,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,-4,0,1,1,1,0,236000,17084.7,34702,3.7,818,-17.9,19424,13080
+116,Lennar,LEN,Engineering & Construction,Homebuilders,1,0,0,1,-7,0,1,1,1,0,12284,47374.8,34233.4,1.7,3938.5,-14.6,39234.3,43389
+117,Eli Lilly,LLY,Health Care,Pharmaceuticals,1,0,0,1,15,1,0,0,1,0,43000,739658,34124.1,19.6,5240.4,-16.1,64006.3,903322
+118,Molina Healthcare,MOH,Health Care,Health Care: Insurance and Managed Care,1,0,0,1,-2,0,1,1,1,0,18000,24068,34072,6.6,1091,37.8,14892,16755
+119,Cummins,CMI,Industrials,Industrial Machinery,1,0,1,1,17,1,0,0,1,0,75500,41798.1,34065,21.3,735,-65.8,32005,39520
+120,Bank of New York Mellon,BK,Financials,Commercial Banks,1,0,0,1,71,1,0,0,1,0,53400,43380.4,33805,69.1,3286,27.7,409953,49139
+121,Netflix,NFLX,Media,Entertainment,1,0,0,1,-2,0,1,1,1,0,13000,262827.9,33723.3,6.7,5408,20.4,48732,282865
+122,Truist Financial,TFC,Financials,Commercial Banks,0,0,0,0,25,1,0,0,0,0,49935,52022.4,33246,31.1,-1091,-117.4,535349,55397
+123,Arrow Electronics,ARW,Wholesalers,Wholesalers: Electronics and Office Equipment,1,0,0,0,-24,0,1,1,1,0,22100,6988.1,33107.1,-10.8,903.5,-36.7,21726.2,6525
+124,3M,MMM,Chemicals,Chemicals,0,0,0,0,-18,0,1,1,1,0,85000,58695,32681,-4.5,-6995,-221.1,50580,56841
+125,Visa,V,Business Services,Financial Data Services,1,0,0,1,2,1,0,0,1,1,28800,560847.5,32653,11.4,17273,15.5,90499,551134
+126,Apollo Global Management,APO,Financials,Securities,1,1,0,1,220,1,0,0,0,0,6855,63889.7,32644,180.8,5047,,313488,69703
+127,HF Sinclair,DI0,Energy,Petroleum Refining,1,0,0,0,-30,0,1,1,0,0,5218,11987.6,31964.4,-16.3,1589.7,-45.6,17716.3,11988
+128,CBRE Group,CBRE,Financials,Real estate,1,0,0,1,-3,0,1,0,1,0,130000,29725.9,31949,3.6,986,-29.9,22548,29726
+129,PNC Financial Services Group,PNC,Financials,Commercial Banks,1,0,0,0,29,1,0,0,1,0,55612,64291.8,31882,35.4,5578,-7.7,561580,64292
+130,Lithia Motors,LAD,Retailing,"Automotive Retailing, Services",1,0,0,1,5,1,0,0,0,0,25051,8283,31310.9,10.6,1000.8,-20,19632.5,8283
+131,CarMax,KMX,Retailing,"Automotive Retailing, Services",1,0,0,0,-17,0,1,1,0,1,30621,13756.5,31126.4,-6.2,484.8,-57.9,26182.7,13757
+132,Paramount Global,PARA,Media,Entertainment,0,0,0,0,-8,0,1,1,0,0,24150,8099,30610,-2.3,-608,-155.1,53543,8099
+133,Dollar Tree,DLTR,Retailing,Specialty Retailers: Other,0,0,0,1,1,1,0,0,0,0,138860,29024.4,30603.8,8,-998.4,-161.8,22023.5,29024
+134,United Natural Foods,UNFI,Wholesalers,Wholesalers: Food and Grocery,1,0,0,0,-5,0,1,0,0,0,29455,682.9,30272,4.6,24,-90.3,7394,683
+135,PayPal Holdings,PYPL,Business Services,Financial Data Services,1,0,0,0,3,1,0,0,1,0,27200,71796,29771,8.2,4246,75.5,82166,71796
+136,Penske Automotive Group,PAG,Retailing,"Automotive Retailing, Services",1,0,0,1,1,1,0,0,1,0,28000,10861,29527.4,6.2,1053.2,-23.7,15671.5,10861
+137,Hewlett Packard Enterprise,HPE,Tech0logy,"Computers, Office Equipment",1,0,0,1,-4,0,1,0,1,1,62000,23049,29135,2.2,2025,133.3,57153,23049
+138,Duke Energy,DUK,Energy,Utilities: Gas and Electric,1,0,1,0,-7,0,1,0,1,0,27037,74607.9,28932,0.5,2841,11.4,176893,74608
+139,Occidental Petroleum,OXY,Energy,"Mining, Crude-Oil Production",1,0,1,1,-39,0,1,1,0,0,12570,57611.3,28918,-22,4696,-64.7,74008,57611
+140,NRG Energy,NRG,Energy,Energy,0,0,0,1,-20,0,1,1,0,0,18131,14535.4,28823,-8.6,-202,-116.5,26038,14535
+141,Amgen,AMGN,Health Care,Pharmaceuticals,1,0,0,1,3,1,0,0,1,0,26700,152372.5,28190,7.1,6717,2.5,97154,152373
+142,NextEra Energy,NEE,Energy,Utilities: Gas and Electric,1,0,0,1,35,1,0,0,1,0,16800,131170.7,28114,34.2,7310,76.3,177489,131171
+143,Danaher,DHR,Health Care,Medical Products and Equipment,1,0,0,0,-21,0,1,1,1,0,62000,184928.7,27602,-12.3,4764,-33.9,84488,184929
+144,Gilead Sciences,GILD,Health Care,Pharmaceuticals,1,0,0,1,-4,0,1,0,0,0,18000,91340.5,27116,-0.6,5665,23.4,62125,91341
+145,AutoNation,AN,Retailing,"Automotive Retailing, Services",1,0,0,1,-4,0,1,0,1,0,25300,6902.1,26948.9,-0.1,1021.1,-25.9,11980,6902
+146,Kraft Heinz,KHC,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,0,-3,0,1,0,0,0,36000,44857,26640,0.6,2855,20.8,90339,44857
+147,Avnet,AVT,Wholesalers,Wholesalers: Electronics and Office Equipment,1,0,0,1,6,1,0,0,1,0,15800,4480.2,26536.9,9.2,770.8,11.3,12477.2,4480
+148,Applied Materials,AMAT,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,1,-3,0,1,0,1,0,34000,171356,26517,2.8,6856,5.1,30729,171356
+149,Southwest Airlines,LUV,Transportation,Airlines,1,0,0,1,6,1,0,0,1,0,74806,17416.6,26091,9.6,465,-13.7,36487,17417
+150,Charles Schwab,SCHW,Financials,Securities,1,0,0,0,15,1,0,0,1,0,33000,131974.9,25521,14.4,5067,-29.5,493178,131975
+151,Baker Hughes,BKR,Energy,"Oil and Gas Equipment, Services",1,0,0,1,24,1,0,0,0,0,58000,33529.5,25506,20.6,1943,,36945,33530
+152,McDonald's,MCD,"Hotels, Restaurants & Leisure",Food Services,1,0,0,0,7,1,0,0,1,0,150000,203582.4,25493.7,10,8468.8,37.1,56146.8,203582
+153,Southern Company,SO,Energy,Utilities: Gas and Electric,1,0,0,1,-25,0,1,0,1,0,27960,78269.4,25253,-13.8,3976,12.8,139331,78269
+154,Mastercard,MA,Business Services,Financial Data Services,1,0,0,1,13,1,0,0,1,1,33400,449252.6,25098,12.9,11195,12.7,42448,449253
+155,Constellation Energy,CEG,Energy,Energy,1,0,0,1,-3,0,1,0,0,0,13842,58250.1,24918,2,1623,,50758,58250
+156,Hartford Financial Services Group,HIG,Financials,Insurance: Property and Casualty (Stock),1,0,0,0,8,1,0,0,0,0,18700,30636.6,24527,9.7,2504,38,76780,30637
+157,PG&E,PCG,Energy,Utilities: Gas and Electric,1,0,1,1,13,1,0,0,0,0,28010,35759.5,24428,12.7,2242,24.6,125698,35760
+158,Coupang,CPNG,Retailing,Internet Services and Retailing,1,1,0,1,27,1,0,0,0,0,78000,31903.1,24383,18.5,1360,,13346,31903
+159,EOG Resources,EOG,Energy,"Mining, Crude-Oil Production",1,0,0,1,-13,0,1,0,0,0,3050,73535.6,24186,-5.9,7594,-2.1,43857,73536
+160,Union Pacific,UNP,Transportation,Railroads,1,0,0,0,-11,0,1,0,1,0,32973,150041,24119,-3,6379,-8.8,67132,150041
+161,Rite Aid,RADCQ,Food & Drug Stores,Food & Drug Stores,0,0,0,0,-10,0,1,0,0,0,47000,9,24091.9,-1.9,-749.9,,7527.4,9
+162,Macy's,M,Retailing,General Merchandisers,1,0,0,0,-14,0,1,0,0,0,85581,5482.7,23866,-5.7,105,-91.1,16246,5483
+163,Marriott International,MAR,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,19,1,0,0,1,1,148000,72730.7,23713,14.2,3083,30.7,25674,72731
+164,Lear,LEA,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,1,15,1,0,0,1,0,186600,8263.1,23466.9,12.3,572.5,74.7,14695.5,8263
+165,Genuine Parts,GPC,Wholesalers,Wholesalers: Diversified,1,0,0,1,4,1,0,0,0,0,60000,21600.9,23090.6,4.5,1316.5,11.3,17968.5,21601
+166,Sherwin-Williams,SHW,Chemicals,Chemicals,1,0,1,0,2,1,0,0,1,0,64088,88255.4,23051.9,4.1,2388.8,18.3,22954.4,88255
+167,Halliburton,HAL,Energy,"Oil and Gas Equipment, Services",1,0,0,1,20,1,0,0,0,0,48000,35087.8,23018,13.4,2638,67.8,24683,35088
+168,Freeport-McMoRan,FCX,Energy,"Mining, Crude-Oil Production",1,0,1,1,-7,0,1,0,0,0,27200,67445.9,22855,0.3,1848,-46.7,52506,67446
+169,Live Nation Entertainment,LYV,Media,Entertainment,1,0,0,1,69,1,0,0,1,0,23200,24411.5,22749.1,36.4,563.3,90.3,19074,24412
+170,Marsh & McLennan,MMC,Financials,Diversified Financials,1,0,0,0,13,1,0,0,1,0,85000,101657.8,22736,9.7,3756,23.1,48030,101658
+171,Advanced Micro Devices,AMD,Tech0logy,Semiconductors and Other Electronic Components,1,0,1,1,-14,0,1,0,1,0,26000,291697.1,22680,-3.9,854,-35.3,67885,291697
+172,First Citizens BancShares,FCNCA,Financials,Commercial Banks,1,0,0,1,420,1,0,0,0,0,15868,23620.4,22466,304.9,11466,944.3,213758,23620
+173,WESCO International,WCC,Wholesalers,Wholesalers: Diversified,1,0,0,0,-2,0,1,0,1,0,20000,8727.3,22385.2,4.5,765.5,-11,15060.9,8727
+174,Carrier Global,CARR,Industrials,Industrial Machinery,1,0,0,1,12,1,0,0,1,0,53000,52323,22098,8.2,1349,-61.8,32822,52323
+175,Cleveland-Cliffs,CLF,Materials,Metals,1,0,0,1,-15,0,1,0,0,0,28000,11331.1,21996,-4.3,399,-70.1,17537,11331
+176,Block,SQ,Business Services,Financial Data Services,1,1,0,1,48,1,0,0,1,0,12985,52075.3,21915.6,25,9.8,,34069.9,52075
+177,Exelon,EXC,Energy,Utilities: Gas and Electric,1,0,0,1,31,1,0,0,1,0,19962,37560,21727,13.9,2328,7.3,101546,37560
+178,KKR,KKR,Financials,Securities,1,0,0,1,308,1,0,0,0,0,4490,89013.9,21685.3,198.1,3732.3,,317294.2,89014
+179,CDW,CDW,Tech0logy,Information Tech0logy Services,1,0,1,0,-23,0,1,0,0,0,15100,34329.5,21376,-10,1104.3,-0.9,13284.6,34330
+180,Booking Holdings,BKNG,Tech0logy,Internet Services and Retailing,1,0,0,1,53,1,0,0,1,0,23482,123968.4,21365,25,4289,40.3,24342,123968
+181,Synchrony,SYF,Financials,Diversified Financials,1,0,0,1,44,1,0,0,0,1,20000,17543.1,20999,19.8,2238,-25.8,117479,17543
+182,Quanta Services,PWR,Engineering & Construction,Engineering & Construction,1,0,0,1,52,1,0,0,1,0,52500,37865.6,20882.2,22.3,744.7,51.6,16237.2,37866
+183,Jones Lang LaSalle,JLL,Financials,Real estate,1,0,0,1,-3,0,1,0,1,0,106100,9255.6,20760.8,-0.5,225.4,-65.6,16064.8,9256
+184,Discover Financial Services,DFS,Financials,Commercial Banks,1,0,0,1,79,1,0,0,0,1,21100,32846.5,20606,35.5,2940,-33.1,151522,32847
+185,Tenet Healthcare,THC,Health Care,Health Care: Medical Facilities,1,0,0,1,20,1,0,0,0,0,95905,10510.5,20548,7.2,611,48.7,28312,10511
+186,Altria Group,MO,"Food, Beverages & Tobacco",Tobacco,1,0,0,1,-2,0,1,0,0,0,6400,76922.2,20502,-0.9,8130,41,38570,76922
+187,Stryker,SYK,Health Care,Medical Products and Equipment,1,0,0,1,27,1,0,0,1,1,52000,136158.7,20498,11.1,3165,34.2,39912,136159
+188,Kimberly-Clark,KMB,Household Products,Household and Personal Products,1,0,0,0,1,1,0,0,1,0,41000,43579.9,20431,1.3,1764,-8.8,17344,43580
+189,Waste Management,WM,Business Services,Waste Management,1,0,0,0,5,1,0,0,1,0,48000,85600.6,20426,3.7,2304,2.9,32823,85601
+190,Cheniere Energy,LNG,Energy,Pipelines,1,0,0,1,-78,0,1,1,0,0,1605,37851.2,20394,-39,9881,591.9,43076,37851
+191,Ross Stores,ROST,Retailing,Specialty Retailers: Apparel,1,0,1,1,22,1,0,0,0,0,108000,49409.1,20376.9,9,1874.5,24,14300.1,49409
+192,WestRock,,Materials,"Packaging, Containers",0,0,0,1,-19,0,1,0,0,0,56100,12707,20310,-4.5,-1649,-274.6,27443.7,12707
+193,General Mills,GIS,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,1,16,1,0,0,1,0,34000,39501.5,20094.2,5.8,2593.9,-4.2,31451.7,39502
+194,Goodyear Tire & Rubber,GT,Motor Vehicles & Parts,Motor Vehicles & Parts,0,0,0,0,-13,0,1,0,0,0,71000,3901.3,20066,-3.6,-689,-441.1,21582,3901
+195,BJ's Wholesale Club,BJ,Retailing,General Merchandisers,1,0,0,0,5,1,0,0,0,0,34000,10058.5,19968.7,3.4,523.7,2.1,6677.6,10059
+196,GE HealthCare Tech0logies,GEHC,Health Care,Medical Products and Equipment,1,0,0,0,0,0,0,0,0,0,51000,41396.5,19552,,1568,,32454,41397
+197,Colgate-Palmolive,CL,Household Products,Household and Personal Products,1,0,0,1,21,1,0,0,1,0,34000,74019.9,19457,8.3,2300,28.9,16393,74020
+198,Whirlpool,WHR,Industrials,"Electronics, Electrical Equip.",1,0,0,0,-5,0,1,0,1,0,59000,6515.3,19455,-1.4,481,,17312,6515
+199,L3Harris Tech0logies,LHX,Aerospace & Defense,Aerospace & Defense,1,0,0,1,37,1,0,0,0,0,50000,40508.1,19419,13.8,1227,15.5,41687,40508
+200,Adobe,ADBE,Tech0logy,Computer Software,1,0,0,1,23,1,0,0,1,1,29945,226060.8,19409,10.2,5428,14.1,29779,226061
+201,Becton Dickinson,BDX,Health Care,Medical Products and Equipment,1,0,0,0,-2,0,1,0,0,0,73000,71488.9,19372,-0.2,1484,-16.6,52780,71489
+202,Pioneer Natural Resources,PXD,Energy,"Mining, Crude-Oil Production",1,0,0,1,-48,0,1,0,0,0,2213,61326.1,19362,-20.3,4894,-37.6,36613,61326
+203,Cognizant Tech0logy Solutions,CTSH,Tech0logy,Information Tech0logy Services,1,0,0,0,-5,0,1,0,0,0,347700,36486.8,19353,-0.4,2126,-7.2,18483,36487
+204,Murphy USA,MUSA,Retailing,Specialty Retailers: Other,1,0,0,1,-32,0,1,0,0,0,10750,8726.5,19238.2,-9.5,556.8,-17.3,4340.1,8727
+205,Fiserv,FI,Business Services,Financial Data Services,1,0,0,1,15,1,0,0,1,0,42000,94358.1,19093,7.6,3068,21.3,90890,94358
+206,Parker-Hannifin,PH,Industrials,Industrial Machinery,1,0,1,1,45,1,0,0,0,0,62730,71369.5,19065.2,20.2,2082.9,58.3,29964.5,71370
+207,American Electric Power,AEP,Energy,Utilities: Gas and Electric,1,0,0,1,-12,0,1,0,0,0,17250,45339.4,18982.3,-3.3,2208.1,-4.3,96684,45339
+208,International Paper,IP,Materials,"Packaging, Containers",1,0,0,0,-34,0,1,0,1,0,39000,13514.7,18916,-10.6,288,-80.9,23261,13515
+209,ManpowerGroup,MAN,Business Services,Temporary Help,1,0,0,0,-17,0,1,0,0,0,27900,3756.3,18914.5,-4.6,88.8,-76.2,8830.2,3756
+210,Aramark,ARMK,Business Services,Diversified Outsourcing Services,1,0,0,0,33,1,0,0,0,0,262550,8535,18853.9,15.5,674.1,246.6,16871.2,8535
+211,Steel Dynamics,STLD,Materials,Metals,1,1,0,1,-45,0,1,0,1,0,12600,23412.5,18795.3,-15.6,2450.9,-36.5,14908.4,23413
+212,Aflac,AFL,Financials,"Insurance: Life, Health (stock)",1,0,0,0,-15,0,1,0,1,0,12785,49404.5,18701,-4.1,4659,10.9,126724,49405
+213,Reinsurance Group of America,RGA,Financials,"Insurance: Life, Health (stock)",1,0,0,1,34,1,0,0,1,0,3900,12683.2,18567,14.2,902,44.8,97623,12683
+214,Emerson Electric,EMR,Industrials,Industrial Machinery,1,0,0,0,-18,0,1,0,0,0,67000,64842.2,18370,-6.4,13219,309.1,42746,64842
+215,State Street,STT,Financials,Commercial Banks,1,0,0,1,80,1,0,0,1,0,46451,23346.3,18366,34.1,1944,-29.9,297258,23346
+216,PPG Industries,PPG,Chemicals,Chemicals,1,0,0,1,6,1,0,0,1,0,53000,34103.8,18246,3.4,1270,23.8,21647,34104
+217,United States Steel,X,Materials,Metals,1,0,0,0,-41,0,1,0,0,0,21803,9168,18053,-14.3,895,-64.5,20451,9168
+218,Automatic Data Processing,ADP,Business Services,Diversified Outsourcing Services,1,0,1,1,23,1,0,0,1,0,63000,102590.8,18012.2,9.2,3412,15.7,50971,102591
+219,Group 1 Automotive,GPI,Retailing,"Automotive Retailing, Services",1,0,0,1,23,1,0,0,0,0,16011,3999.4,17873.7,8.9,601.6,-19.9,7774.1,3999
+220,Dominion Energy,D,Energy,Utilities: Gas and Electric,1,0,0,1,12,1,0,0,0,0,17700,41201.2,17867,4,1994,100.6,109032,41201
+221,BlackRock,BLK,Financials,Securities,1,1,0,0,-2,0,1,0,1,0,19800,124173.4,17859,-0.1,5502,6.3,123211,124173
+222,Oneok,OKE,Energy,Pipelines,1,0,0,1,-59,0,1,0,0,0,4775,46751.9,17677,-21,2659,54.4,44266,46752
+223,C.H. Robinson Worldwide,CHRW,Transportation,Transportation and Logistics,1,0,0,0,-73,0,1,0,1,0,15246,8907.9,17596.4,-28.7,325.1,-65.4,5225.3,8908
+224,Texas Instruments,TXN,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,1,-34,0,1,0,0,0,34000,158540.8,17519,-12.5,6510,-25.6,32348,158541
+225,Kohl's,KSS,Retailing,General Merchandisers,1,0,0,0,-9,0,1,0,1,0,66000,3232.9,17476,-3.4,317,,14009,3233
+226,AutoZone,AZO,Retailing,Specialty Retailers: Other,1,0,0,1,22,1,0,0,1,0,95200,54532.7,17457.2,7.4,2528.4,4.1,15985.9,54533
+227,Lam Research,LRCX,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,3,1,0,0,1,0,17200,127375.7,17428.5,1.2,4510.9,-2,18781.6,127376
+228,Corteva,CTVA,"Food, Beverages & Tobacco",Food Production,1,0,0,1,0,0,0,0,1,0,22500,40304.4,17226,-1.3,735,-35.9,42996,40304
+229,Builders FirstSource,BLDR,Materials,"Building Materials, Glass",1,0,0,0,-68,0,1,0,0,0,29000,25430.6,17097.3,-24.8,1540.6,-44,10499.5,25431
+230,Kyndryl Holdings,KD,Tech0logy,Information Tech0logy Services,0,0,0,0,-16,0,1,0,0,0,90000,5007,17026,-7,-1374,,11464,5007
+231,EchoStar,SATS,Telecommunications,Telecommunications,0,0,0,1,0,0,0,0,0,0,15300,3869.1,17015.6,751.6,-1702.1,-1061.3,57108.9,3869
+232,Delek US Holdings,DK,Energy,Petroleum Refining,1,0,0,0,-46,0,1,0,0,0,3591,1968,16917.4,-16.4,19.8,-92.3,7171.8,1968
+233,Sempra,SRE,Energy,Utilities: Gas and Electric,1,0,0,1,39,1,0,0,1,0,16835,45438.8,16720,15.8,3074,43.8,87181,45439
+234,Global Partners,GLP,Wholesalers,Wholesalers: Diversified,1,0,0,1,-27,0,1,0,1,0,4273,1508.7,16492.2,-12.6,152.5,-57.9,3446,1509
+235,Grainger,GWW,Wholesalers,Wholesalers: Diversified,1,0,0,1,24,1,0,0,1,1,24650,49983.2,16478,8.2,1829,18.2,8147,49983
+236,Jacobs Solutions,J,Business Services,Diversified Outsourcing Services,1,0,0,1,28,1,0,0,0,0,58550,19316.3,16352.4,9.6,665.8,3.4,14617.1,19316
+237,Edison International,EIX,Energy,Utilities: Gas and Electric,1,0,0,1,-9,0,1,0,0,0,14346,27208.4,16338,-5.1,1197,95.6,81758,27208
+238,MGM Resorts International,MGM,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,64,1,0,0,0,0,67000,14966.3,16164.2,23.1,1142.2,-22.5,42368.5,14966
+239,Illi0is Tool Works,ITW,Industrials,Industrial Machinery,1,0,0,0,7,1,0,0,1,0,45000,80162.3,16107,1.1,2957,-2.5,15518,80162
+240,Ameriprise Financial,AMP,Financials,Diversified Financials,1,0,0,1,35,1,0,0,0,0,13800,43927.7,16096,12.2,2556,-0.1,175191,43928
+241,PulteGroup,PHM,Engineering & Construction,Homebuilders,1,0,0,0,4,1,0,0,1,1,6382,25449.4,16061.6,-1,2602.4,-0.6,16087.1,25449
+242,Targa Resources,TRGP,Energy,Pipelines,1,0,0,1,-68,0,1,0,0,0,3182,24921.7,16060.3,-23.3,1345.9,12.6,20671.8,24922
+243,Ally Financial,ALLY,Financials,Diversified Financials,1,0,0,0,81,1,0,0,0,1,11100,12337.7,15971,30.9,1020,-40.5,196392,12338
+244,BorgWarner,BWA,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,0,4,1,0,0,1,0,39900,8023.4,15921,0.8,625,-33.8,14453,8023
+245,Est茅e Lauder,EL,Household Products,Household and Personal Products,1,0,0,0,-29,0,1,0,1,0,53010,55258.7,15910,-10.3,1006,-57.9,23415,55259
+246,Loews,L,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,37,1,0,0,0,0,12280,17396.1,15901,13.2,1434,41.7,79197,17396
+247,O'Reilly Automotive,ORLY,Retailing,Specialty Retailers: Other,1,0,0,1,26,1,0,0,0,0,82958,66634.4,15812.3,9.7,2346.6,8,13873,66634
+248,Markel Group,MKL,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,90,1,0,0,0,0,21600,19946.7,15803.6,35.4,1996.1,,55045.7,19947
+249,Stanley Black & Decker,SWK,Household Products,"Home Equipment, Furnishings",0,0,0,0,-36,0,1,0,1,0,50500,15062,15781.1,-12.3,-310.5,-129.2,23663.8,15062
+250,Micron Tech0logy,MU,Tech0logy,Semiconductors and Other Electronic Components,0,0,0,0,-128,0,1,0,0,0,43000,130547.6,15540,-49.5,-5833,-167.1,64254,130548
+251,Fluor,FLR,Engineering & Construction,Engineering & Construction,1,0,0,0,38,1,0,0,0,0,30187,7192.3,15474,12.6,139,-4.1,6973,7192
+252,Leidos Holdings,LDOS,Tech0logy,Information Tech0logy Services,1,0,0,1,22,1,0,0,0,0,47000,17700.6,15438,7.2,199,-70.9,12695,17701
+253,Viatris,VTRS,Health Care,Pharmaceuticals,1,0,0,1,-11,0,1,0,0,0,38000,14179.6,15426.9,-5.1,54.7,-97.4,47685.5,14180
+254,Kinder Morgan,KMI,Energy,Pipelines,1,0,1,1,-54,0,1,0,0,0,10891,40703.3,15334,-20.1,2391,-6.2,71020,40703
+255,Ecolab,ECL,Chemicals,Chemicals,1,0,0,1,24,1,0,0,1,0,48000,66017.1,15320.2,8,1372.3,25.7,21846.6,66017
+256,Baxter International,BAX,Health Care,Medical Products and Equipment,1,0,0,0,4,1,0,0,0,0,60000,21704.5,15282,1.1,2656,,28276,21705
+257,Devon Energy,DVN,Energy,"Mining, Crude-Oil Production",1,0,0,1,-55,0,1,0,0,0,1900,31864.3,15258,-20.4,3747,-37.7,24490,31864
+258,Kella0va,K,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,0,-2,0,1,0,0,0,23000,19579.4,15207,-0.7,951,-0.9,15621,19579
+259,Casey's General Stores,CASY,Retailing,Specialty Retailers: Other,1,0,0,1,42,1,0,0,0,0,31637,11788.1,15094.5,16.5,446.7,31.5,5943.3,11788
+260,IQVIA Holdings,IQV,Health Care,Health Care: Pharmacy and Other Services,1,0,0,1,11,1,0,0,1,0,87000,46029.4,14984,4,1358,24.5,26681,46029
+261,Republic Services,RSG,Business Services,Waste Management,1,0,0,1,33,1,0,0,1,0,41000,60229,14964.5,10.8,1731,16.4,31410.1,60229
+262,Fox,FOXA,Media,Entertainment,1,0,0,0,23,1,0,0,0,0,10400,14225.1,14913,6.7,1239,2.8,21866,14225
+263,Gap,GPS,Retailing,Specialty Retailers: Apparel,1,0,0,0,-13,0,1,0,0,0,85000,10290.3,14889,-4.7,502,,11044,10290
+264,Keurig Dr Pepper,KDP,"Food, Beverages & Tobacco",Beverages,1,0,0,1,17,1,0,0,1,0,28100,42557.4,14814,5.4,2181,51.9,52130,42557
+265,Reliance,RS,Materials,Metals,1,0,1,1,-33,0,1,0,1,0,15250,19190.4,14805.9,-13,1335.9,-27.4,10480.3,19190
+266,Asbury Automotive Group,ABG,Retailing,"Automotive Retailing, Services",1,0,0,1,-13,0,1,0,0,0,15000,4810.9,14802.7,-4.1,602.5,-39.6,10159.4,4811
+267,Vistra,VST,Energy,Energy,1,0,0,0,21,1,0,0,0,0,4870,24230.2,14779,7.7,1493,,32966,24230
+268,Andersons,ANDE,"Food, Beverages & Tobacco",Food Production,1,0,0,1,-46,0,1,0,0,0,2297,1953.4,14750.1,-15,101.2,-22.8,3855,1953
+269,0rdstrom,JWN,Retailing,General Merchandisers,1,0,0,0,-19,0,1,0,1,0,54000,3309.2,14693,-5.4,134,-45.3,8444,3309
+270,Omnicom Group,OMC,Business Services,"Advertising, marketing",1,0,0,1,3,1,0,0,0,0,75900,19081.1,14692.2,2.8,1391.4,5.7,28044.6,19081
+271,Fidelity National Information Services,FIS,Business Services,Financial Data Services,0,0,1,0,-5,0,1,0,0,0,60000,42762.2,14680,1,-6654,,55105,42762
+272,Consolidated Edison,ED,Energy,Utilities: Gas and Electric,1,0,0,1,-25,0,1,0,0,0,14592,31375.8,14663,-6.4,2519,51.7,66331,31376
+273,CSX,CSX,Transportation,Railroads,1,0,0,1,-11,0,1,0,1,0,23232,72568,14657,-1.3,3715,-10.8,42408,72568
+274,AECOM,ACM,Engineering & Construction,Engineering & Construction,1,0,0,1,19,1,0,0,1,0,52000,13341.2,14591.3,8.1,55.3,-82.2,11233.4,13341
+275,Lumen Tech0logies,LUMN,Telecommunications,Telecommunications,0,0,1,0,-55,0,1,0,0,0,28000,1585,14557,-16.7,-10298,,34018,1585
+276,Tractor Supply,TSCO,Retailing,Specialty Retailers: Other,1,0,0,1,-2,0,1,0,0,0,37500,28248,14555.7,2.5,1107.2,1.7,9188.2,28248
+277,DXC Tech0logy,DXC,Tech0logy,Information Tech0logy Services,0,0,0,0,-39,0,1,0,0,0,130000,3878.7,14430,-11.3,-568,-179.1,15845,3879
+278,AGCO,AGCO,Industrials,Construction and Farm Machinery,1,0,0,1,29,1,0,0,1,0,27900,9179.5,14412.4,13.9,1171.4,31.7,11421.2,9180
+279,Sonic Automotive,SAH,Retailing,"Automotive Retailing, Services",1,0,0,1,3,1,0,0,0,0,10500,1941.7,14372.4,2.7,178.2,101.4,5364.6,1942
+280,Intuit,INTU,Tech0logy,Computer Software,1,0,0,1,24,1,0,0,1,1,22900,181986.4,14368,12.9,2384,15.4,27780,181986
+281,United Rentals,URI,Business Services,Equipment Leasing,1,0,0,1,57,1,0,0,0,0,26300,48437.2,14332,23.1,2424,15.2,25589,48437
+282,Universal Health Services,UHS,Health Care,Health Care: Medical Facilities,1,0,0,1,12,1,0,0,1,0,85025,12265.2,14282,6.6,717.8,6.2,13967.6,12265
+283,Boston Scientific,BSX,Health Care,Medical Products and Equipment,1,0,0,1,23,1,0,0,1,0,48000,100673.1,14240,12.3,1592,128.1,35136,100673
+284,Otis Worldwide,OTIS,Industrials,Industrial Machinery,1,0,1,1,5,1,0,0,1,0,71000,40249.5,14209,3.8,1406,12.2,10117,40250
+285,Xcel Energy,XEL,Energy,Utilities: Gas and Electric,1,0,0,0,-31,0,1,0,1,0,11311,29839.6,14206,-7.2,1771,2,64079,29840
+286,Ball,BALL,Materials,"Packaging, Containers",1,0,0,0,-35,0,1,0,1,0,21000,21206.3,14029,-8.6,707,-1.7,19303,21206
+287,LKQ,LKQ,Wholesalers,Wholesalers: Diversified,1,0,0,1,14,1,0,0,0,0,49000,14248.5,13866,8.4,936,-18.5,15079,14249
+288,Mosaic,MOS,Chemicals,Chemicals,1,0,0,1,-90,0,1,0,0,0,14049,10442,13696.1,-28.4,1164.9,-67.5,23032.8,10442
+289,Textron,TXT,Aerospace & Defense,Aerospace & Defense,1,0,0,1,10,1,0,0,1,0,35000,18500.5,13683,6.3,921,7,16856,18501
+290,Labcorp Holdings,LH,Health Care,Health Care: Pharmacy and Other Services,1,0,0,0,-31,0,1,0,1,0,61975,18372.5,13668.2,-8.1,418,-67.3,16725.1,18373
+291,Principal Financial,PFG,Financials,"Insurance: Life, Health (stock)",1,0,0,1,-74,0,1,0,0,0,19800,20357.8,13665.8,-21.9,623.2,-87,305046.7,20358
+292,Regeneron Pharmaceuticals,REGN,Health Care,Pharmaceuticals,1,1,0,1,28,1,0,0,0,0,13450,105644.7,13117.2,7.8,3953.6,-8.9,33080.2,105645
+293,Raymond James Financial,RJF,Financials,Securities,1,0,0,1,51,1,0,0,1,0,18000,26843.3,12992,14.9,1739,15.2,78360,26843
+294,Dick's Sporting Goods,DKS,Retailing,Specialty Retailers: Other,1,0,1,1,21,1,0,0,0,0,37200,18539.3,12984.4,5,1046.5,0.3,9311.8,18539
+295,Expedia Group,EXPE,Retailing,Internet Services and Retailing,1,0,1,1,38,1,0,0,0,0,17100,18773.7,12839,10,797,126.4,21642,18774
+296,J.B. Hunt Transport Services,JBHT,Transportation,"Trucking, Truck Leasing",1,0,0,0,-36,0,1,0,1,0,34718,20582.2,12829.7,-13.4,728.3,-24.9,8538.3,20582
+297,M&T Bank,MTB,Financials,Commercial Banks,1,0,0,0,122,1,0,0,0,0,21980,24233.4,12752,48.2,2741,37.6,208264,24233
+298,DTE Energy,DTE,Energy,Utilities: Gas and Electric,1,0,0,0,-106,0,1,0,1,0,9950,23204.6,12745,-33.7,1397,29,44755,23205
+299,AES,AES,Energy,Utilities: Gas and Electric,1,0,0,1,8,1,0,0,1,0,9600,12744.8,12668,0.4,249,,44799,12745
+300,Berry Global Group,BERY,Materials,"Packaging, Containers",1,0,0,0,-36,0,1,0,0,0,44000,7009.6,12664,-12.6,609,-20.5,16587,7010
+301,Fifth Third Bancorp,FITB,Financials,Commercial Banks,1,0,0,0,90,1,0,0,1,0,18724,25434.9,12641,35.2,2349,-4,214574,25435
+302,Air Products & Chemicals,APD,Chemicals,Chemicals,1,0,0,1,0,0,0,0,0,0,21850,53856.9,12600,-0.8,2300.2,2,32002.5,53857
+303,Corning,GLW,Industrials,"Electronics, Electrical Equip.",1,0,0,0,-31,0,1,0,0,0,49800,28192.4,12588,-11.3,581,-55.9,28500,28192
+304,EMCOR Group,EME,Engineering & Construction,Engineering & Construction,1,0,0,1,45,1,0,0,1,0,38300,16482.1,12582.9,13.6,633,55.9,6609.7,16482
+305,Amphe0l,APH,Tech0logy,Network and Other Communications Equipment,1,0,0,1,1,1,0,0,1,0,95000,69193.3,12554.7,-0.5,1928,1.4,16526.4,69193
+306,Westlake,WLK,Chemicals,Chemicals,1,0,0,0,-63,0,1,0,0,0,15520,19636.5,12548,-20.6,479,-78.7,21035,19637
+307,DuPont,DD,Chemicals,Chemicals,1,0,0,1,-77,0,1,0,0,0,24000,32016.1,12528,-24.3,423,-92.8,38552,32016
+308,Liberty Media,LSXMA,Media,Entertainment,1,0,0,0,12,1,0,0,1,0,6486,9699.7,12525,3,761,-58.1,41168,9700
+309,S&P Global,SPGI,Business Services,Financial Data Services,1,0,0,1,37,1,0,0,1,0,40450,136253.3,12497,11.8,2626,-19.2,60589,136253
+310,Community Health Systems,CYH,Health Care,Health Care: Medical Facilities,0,0,0,0,7,1,0,0,0,0,54500,486.4,12490,2.3,-133,-389.1,14455,486
+311,FirstEnergy,FE,Energy,Utilities: Gas and Electric,1,0,0,0,12,1,0,0,0,0,12042,22226.4,12450,3.3,1102,171.4,48767,22226
+312,Unum Group,UNM,Financials,"Insurance: Life, Health (stock)",1,0,0,0,15,1,0,0,0,0,10683,10298.6,12385.9,3.3,1283.8,-2.3,63255.2,10299
+313,Henry Schein,HSIC,Health Care,Wholesalers: Health Care,1,0,0,1,-8,0,1,0,0,0,25000,9704.8,12339,-2.4,416,-22.7,10573,9705
+314,Western Digital,WDC,Tech0logy,"Computers, Office Equipment",0,0,0,0,-113,0,1,0,1,0,53000,22278.8,12318,-34.5,-1706,-213.7,24429,22279
+315,Analog Devices,ADI,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,1,9,1,0,0,0,0,26000,98085.7,12305.5,2.4,3314.6,20.6,48794.5,98086
+316,Conagra Brands,CAG,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,1,24,1,0,0,0,0,18600,14168.1,12277,6.4,683.6,-23,22052.6,14168
+317,Citizens Financial Group,CFG,Financials,Commercial Banks,1,0,0,0,82,1,0,0,1,0,17570,16635.3,12187,34.4,1608,-22.4,221964,16635
+318,0rfolk Southern,NSC,Transportation,Railroads,1,0,0,1,-18,0,1,0,0,0,20700,57570.4,12156,-4.6,1827,-44.1,41652,57570
+319,Entergy,ETR,Energy,Utilities: Gas and Electric,1,0,0,1,-37,0,1,0,0,0,12177,22535.5,12147.4,-11.7,2356.5,113.6,59703.4,22536
+320,W.R. Berkley,WRB,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,27,1,0,0,0,0,8329,22689.2,12142.9,8.7,1381.4,,37202,22689
+321,DaVita,DVA,Health Care,Health Care: Medical Facilities,1,0,0,0,16,1,0,0,1,0,70000,12107,12140.1,4.6,691.5,23.4,16893.6,12107
+322,0rthern Trust,NTRS,Financials,Commercial Banks,1,0,0,0,135,1,0,0,1,0,23100,18141.4,12116.5,56.3,1107.3,-17.1,150783.1,18141
+323,Hormel Foods,HRL,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,0,-13,0,1,0,1,0,20000,19108.8,12110,-2.8,793.6,-20.6,13448.8,19109
+324,Crown Holdings,CCK,Materials,"Packaging, Containers",1,0,0,0,-27,0,1,0,0,0,25000,9574.2,12010,-7.2,450,-38.1,15034,9574
+325,Avis Budget Group,CAR,Retailing,"Automotive Retailing, Services",1,0,0,0,1,1,0,0,0,0,21250,4344,12008,0.1,1632,-41,32569,4344
+326,Wayfair,W,Retailing,Internet Services and Retailing,0,1,0,0,-10,0,1,0,0,0,12800,8174.7,12003,-1.8,-738,,3474,8175
+327,MasTec,MTZ,Engineering & Construction,Engineering & Construction,0,0,0,1,47,1,0,0,1,0,34000,7393,11995.9,22.7,-49.9,-249.8,9373.5,7393
+328,Eversource Energy,ES,Energy,Utilities: Gas and Electric,0,0,0,1,-13,0,1,0,0,0,10171,20962.9,11910.7,-3.1,-442.2,-131.5,55612.2,20963
+329,Newmont,NEM,Energy,"Mining, Crude-Oil Production",0,0,0,1,-1,0,1,0,0,0,21700,41315.9,11812,-0.9,-2494,,55506,41316
+330,Ryder System,R,Transportation,Transportation and Logistics,1,0,0,0,-5,0,1,0,1,0,47500,5320.5,11783,-1.9,406,-53.2,15778,5321
+331,Fidelity National Financial,FNF,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,8,1,0,0,0,0,22293,14507.3,11752,1.7,517,-54.5,80614,14507
+332,Molson Coors Beverage,TAP,"Food, Beverages & Tobacco",Beverages,1,0,0,0,22,1,0,0,0,0,16500,14297.8,11702.1,9.4,948.9,,26375.1,14298
+333,Caesars Entertainment,CZR,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,1,1,0,0,0,0,51000,9461,11673,0.2,786,,33366,9461
+334,Lincoln National,LNC,Financials,"Insurance: Life, Health (stock)",0,0,1,0,-132,0,1,0,0,0,11024,5417.5,11645,-37.9,-752,,372413,5418
+335,VF,VFC,Apparel,Apparel,1,0,0,0,-6,0,1,0,0,0,26400,5964.4,11612.5,-1.9,118.6,-91.5,13990.5,5964
+336,International Flavors & Fragrances,IFF,Chemicals,Chemicals,0,0,0,0,-24,0,1,0,0,0,21500,21954.9,11479,-7.7,-2567,,30978,21955
+337,Huntington Ingalls Industries,HII,Aerospace & Defense,Aerospace & Defense,1,0,0,1,18,1,0,0,0,0,44000,11544.7,11454,7.3,681,17.6,11215,11545
+338,Advance Auto Parts,AAP,Retailing,Specialty Retailers: Other,1,0,0,1,10,1,0,0,0,0,54500,5072.2,11287.6,1.2,29.7,-93.6,12276.3,5072
+339,Public Service Enterprise Group,PEG,Energy,Utilities: Gas and Electric,1,0,0,1,33,1,0,0,0,0,12543,33295.6,11237,14.7,2563,148.6,50741,33296
+340,Ulta Beauty,ULTA,Retailing,Specialty Retailers: Other,1,0,0,1,23,1,0,0,0,0,38000,25238.8,11207.3,9.8,1291,3.9,5707,25239
+341,Hershey,HSY,"Food, Beverages & Tobacco",Food Consumer Products,1,0,1,1,19,1,0,0,0,0,19578,39719.1,11165,7.2,1861.8,13.2,11902.9,39719
+342,Chewy,CHWY,Retailing,Internet Services and Retailing,1,0,0,0,27,1,0,0,1,0,18100,6919.5,11147.7,10.4,39.6,-19.6,3186.9,6920
+343,American Tower,AMT,Financials,Real estate,1,0,0,0,10,1,0,0,0,0,5643,92146.5,11144.2,4,1483.3,-16,66027.6,92147
+344,Mohawk Industries,MHK,Household Products,"Home Equipment, Furnishings",0,0,0,1,-13,0,1,0,0,0,43300,8337.2,11135.1,-5.1,-439.5,-1840.9,13559.9,8337
+345,Assurant,AIZ,Financials,Insurance: Property and Casualty (Stock),1,0,0,0,19,1,0,0,0,0,13600,9784.3,11131.6,9.2,642.5,132.3,33635.2,9784
+346,Thor Industries,THO,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,0,-112,0,1,0,0,0,24900,6257.1,11121.6,-31.8,374.3,-67.1,7260.8,6257
+347,Yum China Holdings,YUMC,"Hotels, Restaurants & Leisure",Food Services,1,0,1,1,37,1,0,0,1,0,293500,15598.8,10978,14.7,827,87.1,12031,15599
+348,Celanese,CE,Chemicals,Chemicals,1,0,1,0,27,1,0,0,0,0,12410,19173.3,10940,13.1,1960,3.5,26597,19173
+349,Qurate Retail,QRTEA,Retailing,Internet Services and Retailing,0,0,0,0,-28,0,1,0,0,0,20386,510.9,10915,-9.8,-145,,11368,511
+350,Williams,WMB,Energy,Pipelines,1,0,0,1,-1,0,1,0,0,0,5601,47482,10907,-0.5,3179,55.1,52627,47482
+351,Interpublic Group,IPG,Business Services,"Advertising, marketing",1,0,0,0,-1,0,1,0,0,0,57400,12357.8,10889.3,-0.4,1098.4,17.1,19267.3,12358
+352,Ovintiv,OVV,Energy,"Mining, Crude-Oil Production",1,0,0,0,-44,0,1,0,0,0,1743,13958.7,10883,-12.7,2085,-42.7,19987,13959
+353,Icahn Enterprises,IEP,Financials,Diversified Financials,0,0,0,0,-80,0,1,0,0,0,15038,7297.9,10847,-23.1,-684,,20858,7298
+354,Huntington Bancshares,HBAN,Financials,Commercial Banks,1,0,0,1,91,1,0,0,0,0,19955,20308.6,10837,36.3,1951,-12.8,189368,20309
+355,Carvana,CVNA,Retailing,"Automotive Retailing, Services",1,1,0,0,-69,0,1,0,0,0,13700,16943.7,10771,-20.8,450,,7071,16944
+356,Hess,HES,Energy,"Mining, Crude-Oil Production",1,0,0,1,-20,0,1,0,0,0,1756,46883.7,10645,-8,1382,-34.1,24007,46884
+357,Dana,DAN,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,0,8,1,0,0,0,0,41800,1840.9,10555,3.9,38,,7965,1841
+358,Alcoa,AA,Materials,Metals,0,0,0,1,-49,0,1,0,0,0,13600,6067.3,10551,-15.3,-651,,14155,6067
+359,Equitable Holdings,EQH,Financials,"Insurance: Life, Health (stock)",1,0,0,1,-83,0,1,0,0,0,10700,12532.3,10528,-24.9,1302,-27.1,276814,12532
+360,KLA,KLAC,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,1,34,1,0,0,0,0,15105,94470.2,10496.1,13.9,3387.3,2,14072.4,94470
+361,Darden Restaurants,DRI,"Hotels, Restaurants & Leisure",Food Services,1,0,0,1,19,1,0,0,0,0,187384,19959.5,10487.8,8.9,981.9,3.1,10241.5,19960
+362,Autoliv,ALV,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,1,45,1,0,0,0,0,66434,9809.7,10475,18.5,488,15.4,8332,9810
+363,Alaska Air Group,ALK,Transportation,Airlines,1,0,0,1,13,1,0,0,0,0,24610,5408.1,10426,8.1,235,305.2,14613,5408
+364,KeyCorp,KEY,Financials,Commercial Banks,1,0,0,1,73,1,0,0,0,0,17692,14663.3,10397,27.9,967,-49.6,188281,14663
+365,Las Vegas Sands,LVS,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,326,1,0,0,1,0,38550,38840.4,10372,139.1,1221,-33.4,21778,38840
+366,Owens & Mi0r,OMI,Health Care,Wholesalers: Health Care,0,0,0,0,2,1,0,0,0,0,22200,2122.5,10334,3.8,-41.3,-284.5,5093.3,2123
+367,Hilton Worldwide Holdings,HLT,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,42,1,0,0,1,1,178000,53788.4,10235,16.7,1141,-9.1,15401,53788
+368,Ebay,EBAY,Tech0logy,Internet Services and Retailing,1,0,0,1,3,1,0,0,0,0,12300,27340,10112,3.2,2767,,21620,27340
+369,Arthur J. Gallagher,AJG,Financials,Diversified Financials,1,0,0,1,52,1,0,0,0,0,52118,54584.4,10071.9,17.8,969.5,-13,51615.8,54584
+370,LPL Financial Holdings,LPLA,Financials,Securities,1,0,0,1,48,1,0,0,0,0,7372,19735.9,10052.8,16.9,1066.3,26.1,10385.5,19736
+371,Cincinnati Financial,CINF,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,141,1,0,0,0,0,5426,19456.1,10013.4,52.7,1843.3,,32769.5,19456
+372,Toll Brothers,TOL,Engineering & Construction,Homebuilders,1,0,0,0,-12,0,1,0,1,0,4800,13476.5,9994.9,-2.7,1372.1,6.7,12527,13477
+373,Motorola Solutions,MSI,Tech0logy,Network and Other Communications Equipment,1,0,0,1,23,1,0,0,0,0,21000,59141.7,9978,9.5,1709,25.4,13336,59142
+374,Airbnb,ABNB,Tech0logy,Internet Services and Retailing,1,1,0,1,54,1,0,0,1,0,6907,106739.8,9917,18.1,4792,153.1,20645,106740
+375,Intercontinental Exchange,ICE,Financials,Securities,1,1,0,1,4,1,0,0,0,0,13222,78694.7,9903,2.8,2368,63.8,136084,78695
+376,News Corp.,NWSA,Media,"Publishing, Printing",1,0,0,0,-17,0,1,0,0,0,25000,15120.1,9879,-4.9,149,-76.1,16921,15120
+377,Chipotle Mexican Grill,CMG,"Hotels, Restaurants & Leisure",Food Services,1,0,0,1,39,1,0,0,1,0,116068,79707,9871.6,14.3,1228.7,36.7,8044.4,79707
+378,Vertex Pharmaceuticals,VRTX,Health Care,Pharmaceuticals,1,0,1,1,27,1,0,0,0,1,5400,107975.3,9869.2,10.5,3619.6,9,22730.2,107975
+379,Biogen,BIIB,Health Care,Pharmaceuticals,1,0,0,0,-15,0,1,0,0,0,7570,31344.1,9835.6,-3.3,1161.1,-61.9,26844.8,31344
+380,GXO Logistics,GXO,Transportation,Transportation and Logistics,1,0,0,0,21,1,0,0,0,0,109000,6411.5,9778,8.7,229,16.2,9507,6412
+381,SpartanNash,SPTN,Wholesalers,Wholesalers: Food and Grocery,1,0,0,0,-4,0,1,0,0,0,13500,699.6,9729.2,0.9,52.2,51.3,2355.6,700
+382,Burlington Stores,BURL,Retailing,Specialty Retailers: Apparel,1,0,0,1,30,1,0,0,0,0,44050,14841.4,9727.5,11.8,339.6,47.6,7706.8,14841
+383,NVR,NVR,Engineering & Construction,Homebuilders,1,0,0,0,-30,0,1,0,0,0,6300,25904.2,9687.3,-8.4,1591.6,-7.8,6601.8,25904
+384,Owens Corning,OC,Materials,"Building Materials, Glass",1,0,0,0,-12,0,1,0,0,0,18000,14510.2,9677,-0.9,1196,-3.6,11237,14510
+385,Westinghouse Air Brake Tech0logies,WAB,Industrials,Industrial Machinery,1,0,0,1,46,1,0,0,0,0,29000,25789.6,9677,15.7,815,28.8,18988,25790
+386,Oshkosh,OSK,Industrials,Construction and Farm Machinery,1,0,0,1,46,1,0,0,0,0,17300,8178.1,9657.9,16.6,598,243.9,9129.2,8178
+387,Global Payments,GPN,Business Services,Financial Data Services,1,0,0,1,15,1,0,0,0,0,27000,34094.6,9654.4,7.6,986.2,784.6,50570.2,34095
+388,Lululemon athletica,LULU,Retailing,Specialty Retailers: Apparel,1,0,0,1,50,1,0,0,0,0,38000,49225.1,9619.3,18.6,1550.2,81.4,7091.9,49225
+389,Albemarle,ALB,Chemicals,Chemicals,1,0,0,1,81,1,0,0,0,0,9000,15482.7,9617.2,31.4,1573.5,-41.5,18270.7,15483
+390,JetBlue Airways,JBLU,Transportation,Airlines,0,0,1,1,4,1,0,0,0,0,21310,2523.8,9615,5,-310,,13853,2524
+391,Seaboard,SEB,"Food, Beverages & Tobacco",Food Production,1,0,0,1,-50,0,1,0,0,0,12847,3130.6,9562,-15,226,-61,7566,3131
+392,Constellation Brands,STZ,"Food, Beverages & Tobacco",Beverages,0,0,0,0,15,1,0,0,0,0,9400,49683.2,9452.6,7.2,-71,,24662.3,49683
+393,Graphic Packaging Holding,GPK,Materials,"Packaging, Containers",1,0,0,0,-7,0,1,0,1,0,23500,8930.6,9428,-0.1,723,38.5,11175,8931
+394,Hertz Global Holdings,HTZ,Retailing,"Automotive Retailing, Services",1,0,0,1,18,1,0,0,0,0,27000,2390.5,9371,7.9,616,-70.1,24605,2391
+395,Campbell Soup,CPB,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,0,23,1,0,0,0,0,14500,13250.7,9357,9.3,858,13.3,12058,13251
+396,Expeditors Intl. of Washington,EXPD,Transportation,Transportation and Logistics,1,0,0,0,-175,0,1,0,0,0,18452,17248.7,9300.1,-45.5,752.9,-44.5,4523.8,17249
+397,A-Mark Precious Metals,AMRK,Wholesalers,Wholesalers: Diversified,1,0,0,1,37,1,0,0,0,0,421,701.4,9286.6,13.8,156.4,18,1545.6,701
+398,Booz Allen Hamilton Holding,BAH,Tech0logy,Information Tech0logy Services,1,0,0,1,30,1,0,0,1,0,31900,19259.5,9258.9,10.7,271.8,-41.8,6550.7,19260
+399,Quest Diag0stics,DGX,Health Care,Health Care: Pharmacy and Other Services,1,0,0,0,-32,0,1,0,1,0,44000,14782.7,9252,-6.4,854,-9.7,14022,14783
+400,Altice USA,ATUS,Telecommunications,Telecommunications,1,0,0,0,-27,0,1,0,0,0,10600,1190.5,9237.1,-4.3,53.2,-72.7,31923.6,1191
+401,PVH,PVH,Apparel,Apparel,1,0,0,0,-3,0,1,0,0,0,23000,8385.6,9217.7,2.1,663.6,231.1,11172.9,8386
+402,Eastman Chemical,EMN,Chemicals,Chemicals,1,0,0,0,-49,0,1,0,0,0,14000,11786.2,9210,-12.9,894,12.7,14633,11786
+403,Insight Enterprises,NSIT,Tech0logy,Information Tech0logy Services,1,0,1,1,-48,0,1,0,0,0,14437,6046.1,9175.8,-12,281.3,0.2,6286.4,6046
+404,Regions Financial,RF,Financials,Commercial Banks,1,0,0,1,55,1,0,0,0,0,20101,19332.9,9153,21.5,2074,-7.6,152194,19333
+405,Beacon Roofing Supply,BECN,Wholesalers,Wholesalers: Diversified,1,0,0,1,20,1,0,0,0,0,8063,6217.6,9119.8,8.2,435,-5.1,6207.7,6218
+406,Rockwell Automation,ROK,Industrials,"Electronics, Electrical Equip.",1,0,0,1,46,1,0,0,0,0,29000,33384.1,9058,16.7,1387.4,48.8,11304,33384
+407,Polaris,PII,Transportation,Transportation Equipment,1,0,0,1,-7,0,1,0,0,0,18500,5654.8,9014.8,0.3,502.8,12.5,5516.3,5655
+408,Service0w,0W,Tech0logy,Computer Software,1,0,0,1,67,1,0,0,1,1,22668,156292,8971,23.8,1731,432.6,17387,156292
+409,Sanmina,SANM,Tech0logy,Semiconductors and Other Electronic Components,1,1,0,0,38,1,0,0,0,0,36000,3468.2,8935,12.8,310,28.9,4874,3468
+410,UGI,UGI,Energy,Utilities: Gas and Electric,0,0,0,1,-46,0,1,0,0,0,10500,5142.4,8928,-11.7,-1502,-240,15401,5142
+411,WEC Energy Group,WEC,Energy,Utilities: Gas and Electric,1,0,0,0,-31,0,1,0,0,0,7000,25935.2,8893,-7.3,1331.7,-5.4,43939.7,25935
+412,BrightSpring Health Services,BGST,Health Care,Health Care: Pharmacy and Other Services,0,0,0,0,0,0,0,0,0,0,35000,1860.8,8826.2,14.3,-154.6,,5532.7,1861
+413,Cintas,CTAS,Business Services,Diversified Outsourcing Services,1,0,0,1,36,1,0,0,1,0,44500,69695.1,8815.8,12.2,1348,9.1,8546.4,69695
+414,Commercial Metals,CMC,Materials,Metals,1,0,0,1,-10,0,1,0,0,0,13022,6800.2,8799.5,-1.3,859.8,-29.4,6639.1,6800
+415,Continental Resources,CLR,Energy,"Mining, Crude-Oil Production",1,0,0,1,-32,0,1,0,0,0,1457,,8731.7,-7.8,3095.8,-23.1,22387.4,22342
+416,Chesapeake Energy,CHK,Energy,"Mining, Crude-Oil Production",1,0,0,0,-90,0,1,0,0,0,1000,11618.5,8721,-25.7,2419,-51,14376,11619
+417,CenterPoint Energy,CNP,Energy,Utilities: Gas and Electric,1,0,0,0,-28,0,1,0,0,0,8827,18035.1,8696,-6.7,917,-13.2,39715,18035
+418,NGL Energy Partners,NGL,Energy,Pipelines,1,0,0,0,25,1,0,0,0,0,638,763.3,8694.9,9.4,51.4,,5456.1,763
+419,DoorDash,DASH,Tech0logy,Internet Services and Retailing,0,1,0,1,88,1,0,0,0,0,19300,55639.5,8635,31.2,-558,,10839,55640
+420,0V,0V,Energy,"Oil and Gas Equipment, Services",1,0,0,1,57,1,0,0,0,0,33676,7690.9,8583,18.6,993,540.6,11294,7691
+421,Zoetis,ZTS,Health Care,Pharmaceuticals,1,0,1,1,18,1,0,0,0,0,14100,77475.7,8544,5.7,2344,10.9,14286,77476
+422,J.M. Smucker,SJM,"Food, Beverages & Tobacco",Food Consumer Products,0,0,0,0,19,1,0,0,0,0,5800,13364.3,8529.2,6.6,-91.3,-114.5,14991.4,13364
+423,Microchip Tech0logy,MCHP,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,1,75,1,0,0,0,0,22600,48478.2,8438.7,23.7,2237.7,74.1,16370.3,48478
+424,Dover,DOV,Industrials,Industrial Machinery,1,0,0,0,-3,0,1,0,0,0,25000,24341.7,8438.1,-0.8,1056.8,-0.8,11348.5,24342
+425,Diamondback Energy,FANG,Energy,"Mining, Crude-Oil Production",1,0,0,1,-49,0,1,0,0,0,1023,35362.8,8412,-12.8,3143,-28.3,29001,35363
+426,Avery Dennison,AVY,Materials,"Packaging, Containers",1,0,0,0,-29,0,1,0,1,0,35000,17976.2,8364.3,-7.5,503,-33.6,8209.8,17976
+427,PPL,PPL,Energy,Utilities: Gas and Electric,1,0,0,1,19,1,0,0,0,0,6629,20306.2,8312,5.2,740,-2.1,39236,20306
+428,ON Semiconductor,ON,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,2,1,0,0,0,0,30050,31430,8253,-0.9,2183.7,14.8,13215.2,31430
+429,ARKO,ARKO,Retailing,Specialty Retailers: Other,1,0,0,1,7,1,0,0,0,0,13481,662.2,8238.8,1.4,34.4,-52.1,3650.4,662
+430,Par Pacific Holdings,PARR,Energy,Petroleum Refining,1,0,0,1,38,1,0,0,0,0,1814,2199.2,8232,12.4,728.6,100.1,3864,2199
+431,APA,APA,Energy,"Mining, Crude-Oil Production",1,0,0,0,-114,0,1,0,0,0,2271,10367.4,8192,-32.5,2855,-22.3,15244,10367
+432,Equinix,EQIX,Financials,Real estate,1,0,0,1,41,1,0,0,0,0,13151,78093.9,8188.1,12.7,969.2,37.6,32650.7,78094
+433,New York Community Bancorp,NYCB,Financials,Commercial Banks,0,0,0,1,0,0,0,0,0,0,8766,2569.3,8178,249.6,-79,-112.2,114057,2569
+434,Foot Locker,FL,Retailing,Specialty Retailers: Apparel,0,0,1,0,-26,0,1,0,0,0,30591,2693.1,8168,-6.7,-330,-196.5,6868,2693
+435,Ingredion,INGR,"Food, Beverages & Tobacco",Food Production,1,0,0,0,9,1,0,0,1,0,11600,7665.9,8160,2.7,643,30.7,7642,7666
+436,Newell Brands,NWL,Household Products,"Home Equipment, Furnishings",0,0,0,0,-52,0,1,0,1,0,24600,3333.7,8133,-14,-388,-297,12163,3334
+437,ABM Industries,ABM,Business Services,Diversified Outsourcing Services,1,0,0,0,14,1,0,0,0,0,123000,2824.1,8096.4,3.7,251.3,9.1,4933.7,2824
+438,Prologis,PLD,Financials,Real estate,1,1,0,1,112,1,0,0,1,0,2574,120459.8,8023.5,34.3,3059.2,-9.1,93020.8,120460
+439,Blackstone,BX,Financials,Diversified Financials,1,1,0,1,-20,0,1,0,0,0,4735,93882.8,8022.8,-5.8,1390.9,-20.4,40287.5,93883
+440,Skechers U.S.A.,SKX,Apparel,Apparel,1,1,0,1,23,1,0,0,0,0,13550,9389.7,8000.3,7.5,545.8,46.3,7547.4,9390
+441,Masco,MAS,Household Products,"Home Equipment, Furnishings",1,0,0,0,-30,0,1,0,0,0,18000,17335.1,7967,-8.2,908,7.6,5363,17335
+442,Rush Enterprises,RUSHB,Retailing,"Automotive Retailing, Services",1,0,0,1,40,1,0,0,0,0,8449,4164.4,7925,11.6,347.1,-11.3,4364.2,4164
+443,Franklin Resources,BEN,Financials,Securities,1,0,1,0,-12,0,1,0,0,0,9200,14801.5,7849.4,-5.1,882.8,-31.7,30121.2,14802
+444,ODP,ODP,Retailing,Specialty Retailers: Other,1,0,0,0,-23,0,1,0,0,0,20000,1942.6,7831,-7.8,139,-16.3,3886,1943
+445,American Financial Group,AFG,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,40,1,0,0,0,0,8500,11418.1,7827,11.2,852,-5.1,29787,11418
+446,Packaging Corp. of America,PKG,Materials,"Packaging, Containers",1,0,0,0,-24,0,1,0,1,0,14900,17033.7,7802.4,-8,765.2,-25.7,8681.1,17034
+447,Vulcan Materials,VMC,Materials,"Building Materials, Glass",1,0,0,0,22,1,0,0,0,0,10961,36099.6,7781.9,6.4,933.2,62.1,14545.7,36100
+448,Interactive Brokers Group,IBKR,Financials,Securities,1,0,0,1,263,1,0,0,0,0,2932,47328.3,7776,90.4,600,57.9,128423,47328
+449,Williams-So0ma,WSM,Retailing,Specialty Retailers: Other,1,0,1,0,-37,0,1,0,0,0,15000,20357.6,7750.7,-10.6,949.8,-15.8,5273.5,20358
+450,XPO,XPO,Transportation,Transportation and Logistics,1,0,0,0,3,1,0,0,0,0,39450,14169.3,7744,0.3,189,-71.6,7492,14169
+451,Weyerhaeuser,WY,Materials,Forest and Paper Products,1,0,0,1,-91,0,1,0,0,0,9318,26200.5,7674,-24.6,839,-55.4,16983,26201
+452,Genworth Financial,GNW,Financials,"Insurance: Life, Health (stock)",1,0,0,1,9,1,0,0,0,0,2700,2825.7,7488,-0.3,76,-87.5,90817,2826
+453,CMS Energy,CMS,Energy,Utilities: Gas and Electric,1,0,0,0,-37,0,1,0,0,0,8356,18018.6,7462,-13.2,887,6,33517,18019
+454,Science Applications International,SAIC,Tech0logy,Information Tech0logy Services,1,0,1,0,0,0,0,0,1,0,24000,6734.4,7444,-3.4,477,59,5314,6734
+455,Jefferies Financial Group,JEF,Financials,Diversified Financials,1,0,0,1,22,1,0,0,0,0,7564,9347.9,7441.4,4.1,277.7,-64.6,57905.2,9348
+456,Bath & Body Works,BBWI,Retailing,Specialty Retailers: Other,1,0,1,1,1,1,0,0,0,0,33069,11249.3,7429,-1.7,878,9.8,5463,11249
+457,Electronic Arts,EA,Media,Entertainment,1,0,0,1,30,1,0,0,1,0,13400,35469.4,7426,6.2,802,1.6,13459,35469
+458,Taylor Morrison Home,TMHC,Engineering & Construction,Homebuilders,1,0,1,0,-26,0,1,0,0,0,2800,6616.7,7417.8,-9.8,768.9,-27,8672.1,6617
+459,Zimmer Biomet Holdings,ZBH,Health Care,Medical Products and Equipment,1,0,0,0,25,1,0,0,0,0,18000,27116.8,7394.2,4.3,1024,342.5,21496.9,27117
+460,Clorox,CLX,Household Products,Household and Personal Products,1,0,1,0,20,1,0,0,0,0,8700,19001.9,7389,4,149,-67.7,5945,19002
+461,Xylem,XYL,Industrials,Industrial Machinery,1,0,0,1,117,1,0,0,0,0,23000,31246.4,7364,33.4,609,71.5,16112,31246
+462,Voya Financial,VOYA,Financials,Diversified Financials,1,0,1,1,92,1,0,0,0,0,9000,7510.9,7348,24.1,625,22.5,157085,7511
+463,Fastenal,FAST,Wholesalers,Wholesalers: Diversified,1,0,0,1,26,1,0,0,1,0,20721,44157,7346.7,5.2,1155,6.3,4462.9,44157
+464,Watsco,WSO,Wholesalers,Wholesalers: Diversified,1,0,0,1,6,1,0,0,0,0,7388,17061.3,7283.8,0.1,536.3,-10.8,3729.2,17061
+465,Workday,WDAY,Tech0logy,Computer Software,1,0,0,1,72,1,0,0,1,0,18800,72006,7259,16.8,1381,,16452,72006
+466,Old Republic International,ORI,Financials,Insurance: Property and Casualty (Stock),1,0,0,0,-29,0,1,0,0,0,9200,8463.5,7258.3,-10.2,598.6,-12.8,26501.4,8464
+467,RPM International,RPM,Chemicals,Chemicals,1,0,0,1,34,1,0,0,0,0,17274,15329.3,7256.4,8.2,478.7,-2.6,6782,15329
+468,UFP Industries,UFPI,Materials,"Building Materials, Glass",1,0,0,1,-90,0,1,0,0,0,15800,7568.8,7218.4,-25,514.3,-25.7,4017.8,7569
+469,Ameren,AEE,Energy,Utilities: Gas and Electric,1,0,0,1,-14,0,1,0,0,0,9372,19711.1,7213,-5.9,1152,7.3,40830,19711
+470,Knight-Swift Transportation Hldgs.,KNX,Transportation,"Trucking, Truck Leasing",1,0,0,1,-5,0,1,0,0,0,34550,8885.4,7141.8,-3.9,217.1,-71.8,12870.8,8885
+471,Monster Beverage,MNST,"Food, Beverages & Tobacco",Beverages,1,0,0,1,60,1,0,0,0,0,5629,61688.9,7140,13.1,1631,36.9,9686.5,61689
+472,Intuitive Surgical,ISRG,Health Care,Medical Products and Equipment,1,0,0,1,63,1,0,0,0,0,13676,141456.9,7124.1,14.5,1798,36,15441.5,141457
+473,Super Micro Computer,SMCI,Tech0logy,"Computers, Office Equipment",1,1,0,1,138,1,0,0,0,0,5126,59137.7,7123.5,37.1,640,124.4,3674.7,59138
+474,Concentrix,CNXC,Tech0logy,Information Tech0logy Services,1,0,0,1,54,1,0,0,0,0,440000,4342.2,7114.7,12.5,313.8,-27.9,12491.8,4342
+475,O-I Glass,OI,Materials,"Packaging, Containers",0,0,0,0,19,1,0,0,0,0,23000,2549.4,7105,3.6,-103,-117.6,9669,2549
+476,Yum Brands,YUM,"Hotels, Restaurants & Leisure",Food Services,1,0,0,0,20,1,0,0,1,0,25438,39007.3,7076,3.4,1597,20.5,6231,39007
+477,Domtar,,Materials,Forest and Paper Products,1,0,0,1,166,1,0,0,0,0,13000,,7059,49.2,288,-15,7531,1856
+478,CommScope Holding,COMM,Tech0logy,Network and Other Communications Equipment,0,0,0,0,-88,0,1,0,0,0,20000,278,6999.4,-24.2,-1450.9,,9371.9,278
+479,Post Holdings,POST,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,1,41,1,0,0,0,0,11430,6449.2,6991,9.4,301.3,-60.2,11646.7,6449
+480,Crown Castle,CCI,Financials,Real estate,1,0,0,0,8,1,0,0,0,0,4700,45953,6981,-0.1,1502,-10.3,38527,45953
+481,Avantor,AVTR,Tech0logy,"Scientific,Photographic and  Control Equipment",1,0,0,0,-21,0,1,0,0,0,14500,17366.5,6967.2,-7.3,321.1,-53.2,12972.7,17367
+482,KBR,KBR,Tech0logy,Information Tech0logy Services,0,0,0,1,25,1,0,0,0,0,34000,8598.7,6956,6,-265,-239.5,5565,8599
+483,Opendoor Tech0logies,OPEN,Tech0logy,Internet Services and Retailing,0,0,1,0,-242,0,1,0,0,0,1982,2059.3,6946,-55.4,-275,,3567,2059
+484,APi Group,APG,Engineering & Construction,Engineering & Construction,1,0,0,1,24,1,0,0,0,0,29000,9587.9,6928,5.6,153,109.6,7590,9588
+485,EQT,EQT,Energy,Energy,1,0,0,1,-23,0,1,0,0,0,881,16337.5,6908.9,-7.9,1735.2,-2,25285.1,16338
+486,EnLink Midstream,ENLC,Energy,Pipelines,1,0,0,0,-105,0,1,0,0,0,1072,6181.3,6900.1,-27.7,206.2,-42.9,8328.6,6181
+487,Palo Alto Networks,PANW,Tech0logy,Network and Other Communications Equipment,1,0,0,1,92,1,0,0,0,0,13948,91802.4,6892.7,25.3,439.7,,14501.1,91802
+488,Xerox Holdings,XRX,Tech0logy,"Computers, Office Equipment",1,0,0,0,-8,0,1,0,0,0,20100,2222.9,6886,-3.1,1,,10008,2223
+489,Ingersoll Rand,IR,Industrials,Industrial Machinery,1,0,0,1,64,1,0,0,0,0,18000,38306.2,6876.1,16.1,778.7,28.8,15563.5,38306
+490,Dillard's,DDS,Retailing,General Merchandisers,1,0,0,1,-4,0,1,0,0,0,24900,7654.8,6874.4,-1.7,738.8,-17.1,3448.9,7655
+491,Martin Marietta Materials,MLM,Materials,"Building Materials, Glass",1,0,0,0,23,1,0,0,0,0,9400,37955.3,6871.4,6.2,1168.9,34.9,15124.9,37955
+492,Vertiv Holdings,VRT,Industrials,"Electronics, Electrical Equip.",1,0,0,0,80,1,0,0,0,0,27000,31195.5,6863.2,20.6,460.2,500.8,7998.5,31196
+493,Moderna,MRNA,Health Care,Pharmaceuticals,0,0,0,1,-307,0,1,0,1,0,5600,40799.7,6848,-64.5,-4714,-156.4,18426,40800
+494,Boise Cascade,BCC,Wholesalers,Wholesalers: Diversified,1,0,0,1,-68,0,1,0,0,0,7300,6067.9,6838.2,-18.5,483.7,-43.6,3458.6,6068
+495,Sprouts Farmers Market,SFM,Food & Drug Stores,Food & Drug Stores,1,0,0,1,21,1,0,0,0,0,32000,6526.1,6837.4,6.8,258.9,-0.9,3327.4,6526
+496,Agilent Tech0logies,A,Tech0logy,"Scientific,Photographic and  Control Equipment",1,0,0,0,-1,0,1,0,0,0,18100,42642.5,6833,-0.2,1240,-1.1,10763,42643
+497,Olin,OLN,Chemicals,Chemicals,1,0,0,0,-111,0,1,0,0,0,7326,7034.9,6833,-27.1,460.2,-65.3,7713.2,7035
+498,Darling Ingredients,DAR,"Food, Beverages & Tobacco",Food Production,1,0,0,1,12,1,0,0,0,0,15800,7431.3,6788.1,3.9,647.7,-12.2,11061.1,7431
+499,So0co Products,SON,Materials,"Packaging, Containers",1,0,0,1,-26,0,1,0,0,0,23000,5665.8,6781.3,-6.5,475,1.8,7192,5666
+500,CACI International,CACI,Tech0logy,Information Tech0logy Services,1,0,0,1,39,1,0,0,1,0,23000,8442.3,6702.5,8.1,384.7,4.9,6600.8,8442
+501,Core & Main,CNM,Wholesalers,Wholesalers: Diversified,1,0,0,1,2,1,0,0,0,0,5000,11528.5,6702,0.8,371,1.4,5069,11529
+502,Marathon Oil,MRO,Energy,"Mining, Crude-Oil Production",1,0,0,1,-63,0,1,0,0,0,1681,16195.7,6697,-16.7,1554,-57,19575,16196
+503,Hyatt Hotels,H,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,54,1,0,0,1,1,51000,16425.1,6667,13.2,220,-51.6,12833,16425
+504,Select Medical Holdings,SEM,Health Care,Health Care: Medical Facilities,1,0,0,1,23,1,0,0,1,0,46500,3870.1,6664.1,5.2,243.5,53.1,7689.6,3870
+505,McCormick,MKC,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,0,18,1,0,0,0,0,13800,20616.8,6662.2,4.9,680.6,-0.2,12862.3,20617
+506,Tapestry,TPR,Apparel,Apparel,1,0,1,1,-4,0,1,0,1,0,15550,10890.3,6660.9,-0.4,936,9.3,7116.8,10890
+507,Coca-Cola Consolidated,COKE,"Food, Beverages & Tobacco",Beverages,1,0,0,0,33,1,0,0,1,0,16000,7934,6653.9,7.3,408.4,-5.1,4288.9,7934
+508,Howmet Aerospace,HWM,Aerospace & Defense,Aerospace & Defense,1,0,0,1,66,1,0,0,0,0,23200,28077.1,6640,17.3,765,63.1,10428,28077
+509,Welltower,WELL,Financials,Real estate,1,0,0,1,49,1,0,0,1,0,533,53156,6638,13.3,340.1,140.8,44012.2,53156
+510,CF Industries Holdings,CF,Chemicals,Chemicals,1,0,0,1,-170,0,1,0,0,0,2694,15620.7,6631.5,-40.7,1525.2,-54.4,14376.2,15621
+511,Ametek,AME,Tech0logy,"Scientific,Photographic and  Control Equipment",1,0,0,1,34,1,0,0,0,0,21500,42288.6,6597,7.3,1313.2,13.3,15023.5,42289
+512,TransDigm Group,TDG,Aerospace & Defense,Aerospace & Defense,1,0,0,1,76,1,0,0,0,0,15500,68484.7,6585,21.3,1298,49.9,19970,68485
+513,Wynn Resorts,WYNN,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,240,1,0,0,1,0,27800,11456.6,6531.9,73.9,730,,13996.2,11457
+514,Southwestern Energy,SWN,Energy,"Mining, Crude-Oil Production",1,0,0,1,-264,0,1,0,0,0,1165,8349.1,6522,-56.5,1557,-15.8,11991,8349
+515,Amkor Tech0logy,AMKR,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,-32,0,1,0,0,0,28700,7927.6,6503.1,-8.3,359.8,-53,6771.1,7928
+516,Insperity,NSP,Business Services,Diversified Outsourcing Services,1,1,0,1,35,1,0,0,0,0,4400,4087.3,6485.9,9.2,171.4,-4.4,2119.7,4087
+517,Patterson,PDCO,Health Care,Wholesalers: Health Care,1,0,0,0,-6,0,1,0,0,0,7600,2477.2,6471.5,-0.4,207.6,2.1,2879.1,2477
+518,T. Rowe Price,TROW,Financials,Securities,1,0,0,1,-6,0,1,0,1,0,7906,27266.7,6460.5,-0.4,1788.7,14.8,12278.8,27267
+519,Ralph Lauren,RL,Apparel,Apparel,1,0,0,1,17,1,0,0,1,0,19100,12002.7,6443.6,3.6,522.7,-12.9,6789.5,12003
+520,KB Home,KBH,Engineering & Construction,Homebuilders,1,0,0,0,-27,0,1,0,0,0,2205,5361.6,6410.6,-7.1,590.2,-27.7,6648.4,5362
+521,Brunswick,BC,Transportation,Transportation Equipment,1,0,0,0,-23,0,1,0,0,0,18104,6555.5,6401.4,-6,420.4,-37.9,6230.5,6556
+522,Robert Half,RHI,Business Services,Temporary Help,1,0,0,0,-47,0,1,0,1,1,15000,8340.9,6392.5,-11.7,411.1,-37.5,3010.8,8341
+523,PENN Entertainment,PENN,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",0,0,0,1,-6,0,1,0,0,0,23333,2775.6,6362.9,-0.6,-490,-320.6,16064.2,2776
+524,NetApp,NTAP,Tech0logy,"Computers, Office Equipment",1,0,0,0,6,1,0,0,0,0,12000,21663.4,6362,0.7,1274,36,9818,21663
+525,Orga0n,OGN,Health Care,Pharmaceuticals,1,0,0,0,18,1,0,0,0,0,10000,4806,6263,1.4,1023,11.6,12058,4806
+526,Petco Health and Wellness,WOOF,Retailing,Specialty Retailers: Other,0,0,0,0,20,1,0,0,0,0,29000,698.3,6255.3,3.6,-1280.2,-1509.9,5363.2,698
+527,Regal Rex0rd,RRX,Industrials,"Electronics, Electrical Equip.",0,0,0,1,79,1,0,0,0,0,32100,11977.1,6250.7,19.8,-57.4,-111.7,15431.4,11977
+528,Resideo Tech0logies,REZI,Materials,"Building Materials, Glass",1,0,0,0,-7,0,1,0,0,0,14000,3258,6242,-2,210,-25.8,6645,3258
+529,Camping World Holdings,CWH,Retailing,"Automotive Retailing, Services",1,0,0,0,-38,0,1,0,0,0,12459,2354.4,6226.5,-10.6,31,-77.3,4845.7,2354
+530,Huntsman,HUN,Chemicals,Chemicals,1,0,0,0,-122,0,1,0,0,0,6000,4503.1,6199,-28.9,101,-78,7248,4503
+531,Victoria's Secret,VSCO,Retailing,Specialty Retailers: Apparel,1,0,0,0,-6,0,1,0,0,0,21500,1503.4,6181.8,-2.6,109.2,-68.6,4600,1503
+532,Levi Strauss,LEVI,Apparel,Apparel,1,0,1,1,12,1,0,0,0,0,19100,7956.6,6179,0.2,249.6,-56.1,6053.6,7957
+533,Roper Tech0logies,ROP,Tech0logy,Computer Software,1,0,0,1,49,1,0,0,0,0,16800,60022.4,6177.8,12.9,1384.2,-69.5,28167.5,60022
+534,Academy Sports and Outdoors,ASO,Retailing,Specialty Retailers: Other,1,0,0,1,-15,0,1,0,0,0,16509,5025.3,6159.3,-3.7,519.2,-17.3,4676.7,5025
+535,Meritage Homes,MTH,Engineering & Construction,Homebuilders,1,0,0,0,-3,0,1,0,0,0,1838,6346.3,6138.3,-2.4,738.7,-25.5,6353.1,6346
+536,American Axle & Manufacturing,AXL,Motor Vehicles & Parts,Motor Vehicles & Parts,0,0,0,0,27,1,0,0,0,0,19000,865.1,6079.5,4.8,-33.6,-152.3,5356.3,865
+537,Fortive,FTV,Industrials,"Electronics, Electrical Equip.",1,0,0,0,25,1,0,0,0,0,18000,30225.7,6065.3,4.1,865.8,14.6,16911.8,30226
+538,Nasdaq,NDAQ,Financials,Securities,1,0,1,1,-4,0,1,0,0,0,8525,36295.5,6064,-2.6,1059,-5.9,32294,36296
+539,Broadridge Financial Solutions,BR,Business Services,Financial Data Services,1,0,0,1,32,1,0,0,1,0,14700,24126.8,6060.9,6.2,630.6,17,8233.2,24127
+540,Spirit AeroSystems Holdings,SPR,Aerospace & Defense,Aerospace & Defense,0,0,0,1,80,1,0,0,0,0,20655,4192.2,6047.9,20.2,-616.2,,6950.1,4192
+541,Warner Music Group,WMG,Media,Entertainment,1,0,0,0,15,1,0,0,1,0,5900,17100.4,6037,2,430,-22,8545,17100
+542,Chemours,CC,Chemicals,Chemicals,0,0,1,0,-43,0,1,0,0,0,6200,3907.5,6027,-11.3,-238,-141.2,8251,3908
+543,ADT,ADT,Business Services,Diversified Outsourcing Services,1,0,0,0,-25,0,1,0,0,0,14300,6117.7,6017.7,-5.9,463,249,15964.1,6118
+544,Edwards Lifesciences,EW,Health Care,Medical Products and Equipment,1,0,0,1,48,1,0,0,0,0,19800,57520.1,6004.8,11.6,1402.4,-7.9,9363.2,57520
+545,First American Financial,FAF,Financials,Insurance: Property and Casualty (Stock),1,0,0,0,-89,0,1,0,0,1,19210,6294.3,6003.5,-21.1,216.8,-17.6,16802.8,6294
+546,Ha0ver Insurance Group,THG,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,37,1,0,0,0,0,4800,4892.5,5993.5,9.6,35.3,-69.6,14612.6,4893
+547,Silgan Holdings,SLGN,Materials,"Packaging, Containers",1,0,0,0,-32,0,1,0,0,0,14400,5185,5988.2,-6.6,326,-4.4,7611.2,5185
+548,Endeavor Group Holdings,EDR,Media,Entertainment,1,1,0,0,53,1,0,0,0,0,10000,17817.4,5960.2,13.1,356.5,176.1,21544.8,17817
+549,Moody's,MCO,Business Services,Financial Data Services,1,0,0,1,36,1,0,0,1,0,15151,71752.2,5916,8.2,1607,17,14622,71752
+550,Coterra Energy,CTRA,Energy,"Mining, Crude-Oil Production",1,0,0,0,-155,0,1,0,0,0,1083,20946,5914,-34.7,1625,-60,20415,20946
+551,Gartner,IT,Tech0logy,Information Tech0logy Services,1,0,0,1,30,1,0,0,1,0,20237,37165,5907,7.9,882.5,9.2,7835.9,37165
+552,Under Armour,UAA,Apparel,Apparel,1,1,0,0,17,1,0,0,0,0,11078,3157.4,5903.6,3.1,386.8,73.7,4857.1,3157
+553,Ingles Markets,IMKTA,Food & Drug Stores,Food & Drug Stores,1,0,0,1,20,1,0,0,0,0,19540,1456.5,5892.8,3.8,210.8,-22.7,2473.8,1457
+554,Church & Dwight,CHD,Household Products,Household and Personal Products,1,0,0,1,39,1,0,0,0,0,5550,25441.7,5867.9,9.2,755.6,82.6,8569.2,25442
+555,Old Dominion Freight Line,ODFL,Transportation,"Trucking, Truck Leasing",1,0,0,0,-22,0,1,0,0,0,22902,47738.1,5866.2,-6.3,1239.5,-10,5512.4,47738
+556,U-Haul Holding,UHAL,Transportation,"Trucking, Truck Leasing",1,0,0,1,12,1,0,0,0,0,26501,13091.3,5864.7,2.2,923,-17.8,18124.6,13091
+557,Oscar Health,OSCR,Health Care,Health Care: Insurance and Managed Care,0,0,0,0,164,1,0,0,0,0,2400,3416,5862.9,47.9,-270.7,,3601.5,3416
+558,Arista Networks,ANET,Tech0logy,Network and Other Communications Equipment,1,0,1,1,126,1,0,0,0,0,4023,90657.5,5860.2,33.8,2087.3,54.3,9946.8,90658
+559,Sy0psys,SNPS,Tech0logy,Computer Software,1,0,0,1,58,1,0,0,0,0,20300,87178.7,5842.6,15,1229.9,24.9,10333.1,87179
+560,Harley-Davidson,HOG,Transportation,Transportation Equipment,1,0,0,1,7,1,0,0,0,0,6400,5973.3,5836.5,1.4,706.6,-4.7,12140.6,5973
+561,Frontier Communications,FYBR,Telecommunications,Telecommunications,1,0,0,0,4,1,0,0,0,0,13297,6022.6,5751,-0.6,29,-93.4,20693,6023
+562,Primoris Services,PRIM,Engineering & Construction,Engineering & Construction,1,0,0,1,114,1,0,0,0,0,14058,2282.6,5715.3,29.3,126.1,-5.2,3827.4,2283
+563,Carlisle,CSL,Materials,"Building Materials, Glass",1,0,0,0,-58,0,1,0,0,0,11100,18732,5700.1,-13.5,767.4,-16.9,6620,18732
+564,Simon Property Group,SPG,Financials,Real estate,1,0,0,0,35,1,0,0,1,0,2750,50980.3,5658.8,6.9,2283.1,6.7,34283.5,50980
+565,Hanesbrands,HBI,Apparel,Apparel,0,0,0,0,-39,0,1,0,0,0,47520,2039,5636.5,-11,-17.7,,5640.3,2039
+566,Anywhere Real Estate,HOUS,Financials,Real estate,0,0,0,0,-74,0,1,0,0,0,8028,686.5,5636,-18.4,-97,,5839,687
+567,Teledyne Tech0logies,TDY,Aerospace & Defense,Aerospace & Defense,1,0,0,1,19,1,0,0,0,0,14900,20341.7,5635.5,3.2,885.7,12.3,14527.9,20342
+568,CME Group,CME,Financials,Securities,1,0,0,1,53,1,0,0,0,0,3565,77510.5,5578.9,11.1,3226.2,19.9,129706.1,77511
+569,Juniper Networks,JNPR,Tech0logy,Network and Other Communications Equipment,1,0,0,1,29,1,0,0,0,0,11144,12021.6,5564.5,5,310.2,-34.1,9518.5,12022
+570,Coty,COTY,Household Products,Household and Personal Products,1,0,1,1,27,1,0,0,0,0,11350,10706.2,5554.1,4.7,508.2,95.8,12661.6,10706
+571,Pool,POOL,Wholesalers,Wholesalers: Diversified,1,0,0,0,-30,0,1,0,0,0,6100,15528.9,5541.6,-10.3,523.2,-30.1,3428.1,15529
+572,Evergy,EVRG,Energy,Utilities: Gas and Electric,1,0,0,1,-13,0,1,0,0,0,4658,12263.8,5508.2,-6,731.3,-2.8,30976.1,12264
+573,Marvell Tech0logy,MRVL,Tech0logy,Semiconductors and Other Electronic Components,0,0,0,0,-18,0,1,0,0,0,6544,61382.1,5507.7,-7,-933.4,,21228.5,61382
+574,NiSource,NI,Energy,Utilities: Gas and Electric,1,0,0,1,-13,0,1,0,0,0,7388,12378.5,5505.4,-5.9,714.3,-11.2,31077.2,12379
+575,SS&C Tech0logies Holdings,SSNC,Tech0logy,Computer Software,1,1,0,0,25,1,0,0,0,0,26600,15907.2,5502.8,4.2,607.1,-6.6,18102.5,15907
+576,Schneider National,SNDR,Transportation,Transportation and Logistics,1,0,0,1,-72,0,1,0,0,0,17300,3992.5,5498.9,-16.7,238.5,-47.9,4557.2,3993
+577,Autodesk,ADSK,Tech0logy,Computer Software,1,0,0,0,46,1,0,0,0,0,13700,55707.8,5497,9.8,906,10.1,9912,55708
+578,Sealed Air,SEE,Materials,"Packaging, Containers",1,0,0,1,-3,0,1,0,0,0,17000,5375.2,5488.9,-2.7,341.6,-30.5,7200.6,5375
+579,Iron Mountain,IRM,Business Services,Diversified Outsourcing Services,1,0,0,1,37,1,0,0,0,0,27000,23443.4,5480.3,7.4,184.2,-66.9,17473.8,23443
+580,Digital Realty Trust,DLR,Financials,Real estate,1,0,0,1,68,1,0,0,0,0,3664,44982.8,5477.1,16.7,948.8,151.2,44113.3,44983
+581,Keysight Tech0logies,KEYS,Tech0logy,"Scientific,Photographic and  Control Equipment",1,0,0,0,8,1,0,0,0,0,14900,27297,5464,0.8,1057,-6,8683,27297
+582,Globe Life,GL,Financials,"Insurance: Life, Health (stock)",1,0,0,1,25,1,0,0,0,0,3636,10943.1,5447.5,4.5,970.8,31.2,28051.5,10943
+583,Parsons,PSN,Aerospace & Defense,Aerospace & Defense,1,0,1,1,115,1,0,0,0,0,18500,8778.6,5442.7,29.7,161.1,66.7,4804.1,8779
+584,Mattel,MAT,Household Products,"Toys, Sporting Goods",1,0,0,0,3,1,0,0,0,0,33000,6814.6,5441.2,0.1,214.4,-45.6,6435.8,6815
+585,Southwest Gas Holdings,SWX,Energy,Utilities: Gas and Electric,1,0,1,1,43,1,0,0,0,0,14943,5453.5,5434,9.6,150.9,,11869.9,5454
+586,Clean Harbors,CLH,Business Services,Waste Management,1,0,0,1,25,1,0,0,0,0,21280,10858.8,5409.2,4.7,377.9,-8.2,6382.9,10859
+587,Cornerstone Building Brands,,Materials,"Building Materials, Glass",0,0,1,0,-75,0,1,0,0,0,17600,,5402.4,-16.6,-75.5,-118,6933.3,3089
+588,Hubbell,HUBB,Industrials,"Electronics, Electrical Equip.",1,0,0,1,37,1,0,0,0,0,18317,22281,5372.9,8,759.8,39.2,6914,22281
+589,Spirit Airlines,SAVE,Transportation,Airlines,0,0,0,1,28,1,0,0,0,0,13167,529.9,5362.5,5.8,-447.5,,9417.2,530
+590,Lamb Weston Holdings,LW,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,1,117,1,0,0,0,0,10300,15380,5350.6,30.5,1008.9,402.2,6519.8,15380
+591,Take-Two Interactive Software,TTWO,Media,Entertainment,0,0,0,1,201,1,0,0,0,0,11580,25330.4,5349.9,52.6,-1124.7,-369.1,15862.1,25330
+592,GMS,GMS,Wholesalers,Wholesalers: Diversified,1,0,0,1,60,1,0,0,0,0,7007,3877.4,5329.3,15,333,21.8,3267,3877
+593,Landstar System,LSTR,Transportation,"Trucking, Truck Leasing",1,0,0,1,-131,0,1,0,0,0,1468,6893.5,5313.5,-28.6,264.4,-38.6,1801.8,6894
+594,Host Hotels & Resorts,HST,Financials,Real estate,1,0,0,0,35,1,0,0,0,0,163,14550.9,5311,8.2,740,16.9,12243,14551
+595,Fortinet,FTNT,Tech0logy,Computer Software,1,1,0,1,81,1,0,0,0,0,13568,52122.6,5304.8,20.1,1147.8,33.9,7258.9,52123
+596,OneMain Holdings,OMF,Financials,Diversified Financials,1,0,0,0,21,1,0,0,0,0,9100,6118.8,5299,4.6,641,-27,24294,6119
+597,GameStop,GME,Retailing,Specialty Retailers: Other,1,0,0,0,-47,0,1,0,0,0,15750,3829.5,5272.8,-11,6.7,,2709,3830
+598,Equifax,EFX,Business Services,Financial Data Services,1,0,0,1,15,1,0,0,0,0,14900,33234.3,5265.2,2.8,545.3,-21.7,12280,33234
+599,American Eagle Outfitters,AEO,Retailing,Specialty Retailers: Apparel,1,0,0,1,23,1,0,0,0,0,26700,5084.7,5261.8,5.4,170,35.9,3557.9,5085
+600,Comerica,CMA,Financials,Commercial Banks,1,0,0,1,158,1,0,0,0,0,7701,7285.6,5253,40.5,881,-23.5,85834,7286
+601,Greif,GEF,Materials,"Packaging, Containers",1,0,0,0,-79,0,1,0,0,0,12000,3263.7,5218.6,-17.8,359.2,-4.6,5960.8,3264
+602,Comfort Systems USA,FIX,Engineering & Construction,Engineering & Construction,1,0,0,1,99,1,0,0,0,0,15800,11337.4,5206.8,25.8,323.4,31.5,3305.6,11337
+603,TopBuild,BLD,Engineering & Construction,Engineering & Construction,1,0,0,1,17,1,0,0,0,0,14012,14021.8,5194.7,3.7,614.3,10.5,5162.9,14022
+604,Bread Financial Holdings,BFH,Business Services,Financial Data Services,1,0,0,0,83,1,0,0,0,0,7000,1840.6,5168,19.4,718,222,23141,1841
+605,Coherent,COHR,Tech0logy,Semiconductors and Other Electronic Components,0,0,0,1,216,1,0,0,0,0,26622,9202.9,5160.1,55.6,-259.5,-210.5,13711.1,9203
+606,Telephone & Data Systems,TDS,Telecommunications,Telecommunications,0,0,0,0,-18,0,1,0,0,0,8800,1810.3,5160,-4.7,-500,-906.5,13921,1810
+607,Stifel Financial,SF,Financials,Securities,1,0,0,0,52,1,0,0,0,0,9000,8035.6,5159.3,12.3,522.5,-21.1,37727.5,8036
+608,Urban Outfitters,URBN,Retailing,Specialty Retailers: Apparel,1,1,0,1,31,1,0,0,0,0,19460,4028.8,5153.2,7.5,287.7,80.1,4111.2,4029
+609,Terex,TEX,Industrials,Construction and Farm Machinery,1,0,0,1,66,1,0,0,0,0,10200,4314.8,5151.5,16.6,518,72.7,3615.5,4315
+610,Ryerson Holding,RYI,Materials,Metals,1,0,0,1,-83,0,1,0,0,0,4600,1139.6,5108.7,-19.2,145.7,-62.7,2569.6,1140
+611,Snap-on,SNA,Industrials,Industrial Machinery,1,0,0,1,23,1,0,0,0,0,13200,15651.8,5108.3,5.5,1011.1,10.9,7544.9,15652
+612,Flowers Foods,FLO,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,1,25,1,0,0,0,0,9300,5001,5090.8,5.9,123.4,-46,3427,5001
+613,First Horizon,FHN,Financials,Commercial Banks,1,0,0,0,181,1,0,0,0,0,7314,8546.1,5027,43.7,897,-0.3,81661,8546
+614,Paychex,PAYX,Business Services,Diversified Outsourcing Services,1,0,0,1,40,1,0,0,0,0,16600,44186.1,5007.1,8.6,1557.3,11.8,10546.4,44186
+615,Hasbro,HAS,Household Products,"Toys, Sporting Goods",0,0,0,0,-57,0,1,0,0,0,5502,7844.5,5003.3,-14.6,-1489.3,-831.8,6540.9,7845
+616,Ares Management,ARES,Financials,Securities,1,1,0,1,139,1,0,0,0,0,2850,41170.7,4991.8,33.4,474.3,183.1,24730.5,41171
+617,Len0x International,LII,Industrials,Industrial Machinery,1,0,0,0,25,1,0,0,0,0,12600,17393.3,4981.9,5.6,590.1,18.7,2798.3,17393
+618,Peabody Energy,BTU,Energy,"Mining, Crude-Oil Production",1,0,0,0,4,1,0,0,0,0,5400,3088.1,4946.7,-0.7,759.6,-41.4,5962.1,3088
+619,Kemper,KMPR,Financials,Insurance: Property and Casualty (Stock),0,0,0,0,-46,0,1,0,0,0,8100,3983.6,4944.2,-11.3,-272.1,,12742.7,3984
+620,Nexstar Media Group,NXST,Media,Entertainment,1,1,0,1,-15,0,1,0,0,0,12586,5759.4,4933,-5.3,346,-64.4,12078,5759
+621,Tempur Sealy International,TPX,Household Products,"Home Equipment, Furnishings",1,0,0,0,5,1,0,0,0,0,12000,9864.7,4925.4,0.1,368.1,-19.2,4553.9,9865
+622,TriNet Group,TNET,Business Services,Diversified Outsourcing Services,1,0,0,0,7,1,0,0,0,0,3600,6699.7,4922,0.8,375,5.6,3693,6700
+623,Worthington Enterprises,WOR,Materials,Metals,1,0,0,0,-23,0,1,0,0,0,8200,3111.2,4916.4,-6.2,256.5,-32.4,3650.9,3111
+624,Maximus,MMS,Tech0logy,Information Tech0logy Services,1,0,0,1,26,1,0,0,0,0,39600,5120.5,4904.7,5.9,161.8,-20.6,3985.8,5121
+625,Compass,COMP,Tech0logy,Internet Services and Retailing,0,1,0,0,-82,0,1,0,0,0,2549,1768.6,4885,-18.8,-321.3,,1160.3,1769
+626,Brink's,BCO,Business Services,Diversified Outsourcing Services,1,0,0,0,38,1,0,0,0,0,67100,4131.7,4874.6,7.5,87.7,-48.6,6601.8,4132
+627,Kelly Services,KELYA,Business Services,Temporary Help,1,0,0,0,-4,0,1,0,0,0,6200,883.5,4835.7,-2.6,36.4,,2581.6,884
+628,Navient,NAVI,Financials,Diversified Financials,1,0,0,1,107,1,0,0,0,0,4500,1961.8,4828,25.8,228,-64.7,61375,1962
+629,AMC Entertainment Holdings,AMC,Media,Entertainment,0,0,0,1,103,1,0,0,0,0,18347,979.4,4812.6,23,-396.6,,9009.2,979
+630,Encompass Health,EHC,Health Care,Health Care: Medical Facilities,1,0,0,1,-3,0,1,0,1,0,30059,8269.6,4801.2,-1.8,352,29.9,6102.4,8270
+631,Skyworks Solutions,SWKS,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,-56,0,1,0,0,0,9701,17379.4,4772.4,-13,982.8,-22.9,8426.7,17379
+632,Timken,TKR,Industrials,Industrial Machinery,1,0,0,1,34,1,0,0,0,0,19602,6154.1,4769,6.1,394.1,-3.3,6541.7,6154
+633,Liberty Energy,LBRT,Energy,"Oil and Gas Equipment, Services",1,1,0,1,62,1,0,0,0,0,5500,3441.3,4747.9,14.4,556.3,39.2,3033.6,3441
+634,Marriott Vacations Worldwide,VAC,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,11,1,0,0,1,0,22000,3789.7,4727,1.5,254,-35,9680,3790
+635,Leggett & Platt,LEG,Household Products,"Home Equipment, Furnishings",0,0,0,0,-27,0,1,0,1,0,19300,2562.4,4725.3,-8.2,-136.8,-144.2,4634.5,2562
+636,Big Lots,BIG,Retailing,Specialty Retailers: Other,0,0,0,0,-57,0,1,0,0,0,21150,126.5,4722.1,-13.6,-481.9,,3325.3,127
+637,Weis Markets,WMK,Food & Drug Stores,Food & Drug Stores,1,0,0,0,5,1,0,0,0,0,23000,1732.3,4697,,103.8,-17.1,2039.6,1732
+638,Pinnacle West Capital,PNW,Energy,Utilities: Gas and Electric,1,0,0,1,47,1,0,0,0,0,6133,9215.1,4696,8.6,501.6,3.7,24661.2,9215
+639,EPAM Systems,EPAM,Tech0logy,Information Tech0logy Services,1,1,0,0,-6,0,1,0,0,0,53150,15969.6,4690.5,-2.8,417.1,-0.6,4352.4,15970
+640,Antero Resources,AR,Energy,"Mining, Crude-Oil Production",1,1,0,1,-166,0,1,0,0,0,604,8803.5,4682,-34.4,242.9,-87.2,13619.4,8804
+641,Bloomin' Brands,BLMN,"Hotels, Restaurants & Leisure",Food Services,1,0,0,0,33,1,0,0,0,0,87000,2497.2,4671.5,5.8,247.4,142.8,3424.1,2497
+642,MDU Resources Group,MDU,Energy,Energy,1,0,1,0,-157,0,1,0,0,0,9145,5138,4657.3,-33.2,414.7,12.8,7833.2,5138
+643,MDC Holdings,,Engineering & Construction,Homebuilders,1,0,0,1,-78,0,1,0,0,0,1760,4721.3,4642.9,-18.8,401,-28.7,5631.1,4721
+644,Texas Roadhouse,TXRH,"Hotels, Restaurants & Leisure",Food Services,1,0,0,1,66,1,0,0,0,0,91000,10322.9,4631.7,15.4,304.9,13,2793.4,10323
+645,Mercury General,MCY,Financials,Insurance: Property and Casualty (Stock),1,0,0,0,121,1,0,0,0,0,4100,2857.2,4629.6,27.1,96.3,,7103.4,2857
+646,Fortune Brands In0vations,FBIN,Materials,"Building Materials, Glass",1,0,0,1,-207,0,1,0,0,0,11700,10643.1,4626.2,-41.6,404.5,-41.1,6565,10643
+647,Zions Bancorp.,ZION,Financials,Commercial Banks,1,0,0,0,168,1,0,0,0,0,9679,6405.8,4624,38.6,680,-25,87203,6406
+648,JELD-WEN Holding,JELD,Materials,"Building Materials, Glass",1,0,0,0,-39,0,1,0,0,0,17700,1825.2,4606.2,-10.2,62.4,36.6,2980.1,1825
+649,Snap,SNAP,Tech0logy,Internet Services and Retailing,0,1,0,1,5,1,0,0,0,0,5289,18949.2,4606.1,0.1,-1322.5,,7967.8,18949
+650,Zebra Tech0logies,ZBRA,Industrials,"Electronics, Electrical Equip.",1,0,0,0,-89,0,1,0,0,0,9750,15493.3,4584,-20.7,296,-36.1,7306,15493
+651,Agilon Health,AGL,Health Care,Health Care: Pharmacy and Other Services,0,0,0,1,260,1,0,0,0,0,1117,2498.2,4583.1,69.2,-262.6,,1740.9,2498
+652,Toro,TTC,Industrials,Construction and Farm Machinery,1,0,0,0,12,1,0,0,1,0,10706,9566.8,4553.2,0.9,329.7,-25.6,3644.3,9567
+653,Zoom Video Communications,ZM,Tech0logy,Computer Software,1,1,0,0,24,1,0,0,1,0,7420,20105.2,4527.2,3.1,637.5,514.7,9929.8,20105
+654,Tetra Tech,TTEK,Engineering & Construction,Engineering & Construction,1,0,0,1,135,1,0,0,0,0,27000,9875.8,4522.6,29.1,273.4,3.9,3820.5,9876
+655,Public Storage,PSA,Financials,Real estate,1,0,0,1,39,1,0,0,0,0,6200,50964.6,4517.7,8,2148.3,-50.6,19809.2,50965
+656,Illumina,ILMN,Tech0logy,"Scientific,Photographic and  Control Equipment",0,0,0,0,1,1,0,0,0,0,11490,21820.1,4504,-1.7,-1161,,10111,21820
+657,Ventas,VTR,Financials,Real estate,0,0,1,1,43,1,0,0,0,0,486,17523.2,4497.8,8.9,-41,,24725.4,17523
+658,FMC,FMC,Chemicals,Chemicals,1,0,0,0,-99,0,1,0,0,0,6600,7950.8,4486.8,-22.7,1321.5,79.4,11926.2,7951
+659,ArcBest,ARCB,Transportation,"Trucking, Truck Leasing",1,0,1,0,-68,0,1,0,0,0,15000,3349.3,4483.4,-15.8,195.4,-34.5,2485.1,3349
+660,Domi0's Pizza,DPZ,"Hotels, Restaurants & Leisure",Food Services,1,0,0,1,2,1,0,0,0,0,8850,17305.7,4479.4,-1.3,519.1,14.8,1674.9,17306
+661,ASGN,ASGN,Business Services,Diversified Outsourcing Services,1,0,0,0,-3,0,1,0,0,0,15450,4871.3,4450.6,-2.8,219.3,-18.2,3544.6,4871
+662,Rivian Automotive,RIVN,Motor Vehicles & Parts,Motor Vehicles & Parts,0,1,0,1,0,0,0,0,0,0,16790,10703.1,4434,167.4,-5432,,16778,10703
+663,Elanco Animal Health,ELAN,Health Care,Pharmaceuticals,0,0,0,1,12,1,0,0,0,0,9800,8025.6,4417,0.1,-1231,,14362,8026
+664,Graham Holdings,GHC,Business Services,Education,1,0,0,1,61,1,0,0,0,0,17006,3421.6,4414.9,12.5,205.3,206,7187.7,3422
+665,Floor & Decor Holdings,FND,Retailing,Specialty Retailers: Other,1,0,0,1,23,1,0,0,0,0,11320,13870.7,4413.9,3.5,246,-17.5,4662.6,13871
+666,Applied Industrial Tech0logies,AIT,Wholesalers,Wholesalers: Diversified,1,0,0,1,74,1,0,0,0,0,6200,7639.2,4412.8,15.8,346.7,34.7,2743.3,7639
+667,PriceSmart,PSMT,Retailing,General Merchandisers,1,1,0,1,40,1,0,0,0,0,11000,2563.3,4411.8,8.5,109.2,4.5,2005.6,2563
+668,Lyft,LYFT,Tech0logy,Internet Services and Retailing,0,0,0,0,36,1,0,0,0,0,2945,7736.3,4403.6,7.5,-340.3,,4564.5,7736
+669,Ciena,CIEN,Tech0logy,Network and Other Communications Equipment,1,0,0,1,98,1,0,0,0,0,8398,7150.6,4386.5,20.8,254.8,66.7,5601.5,7151
+670,IAC,IAC,Tech0logy,Internet Services and Retailing,1,0,0,0,-70,0,1,0,0,0,9500,4585.4,4365.2,-16.6,265.9,,10371.2,4585
+671,Western Union,WU,Business Services,Financial Data Services,1,0,0,1,-4,0,1,0,0,0,9000,4783.9,4357,-2.6,626,-31.3,8198.8,4784
+672,Flowserve,FLS,Industrials,Industrial Machinery,1,0,0,0,97,1,0,0,0,0,16000,5994.4,4320.6,19.5,186.7,-1,5108.7,5994
+673,Western Alliance Bancorp.,WAL,Financials,Commercial Banks,1,0,0,0,187,1,0,0,0,0,3260,7072.5,4316,43.1,722.4,-31.7,70862,7073
+674,Option Care Health,OPCH,Health Care,Health Care: Pharmacy and Other Services,1,0,0,0,45,1,0,0,0,0,6806,5819.1,4302.3,9.1,267.1,77.4,3217,5819
+675,SiteOne Landscape Supply,SITE,Wholesalers,Wholesalers: Diversified,1,0,0,1,35,1,0,0,0,0,7585,7887.3,4301.2,7.1,173.4,-29.3,2828.9,7887
+676,Topgolf Callaway Brands,MODG,"Hotels, Restaurants & Leisure","Toys, Sporting Goods",1,0,0,0,36,1,0,0,0,0,32000,2968.8,4284.8,7.2,95,-39.8,9120.6,2969
+677,eXp World Holdings,EXPI,Financials,Real estate,0,1,0,1,-23,0,1,0,0,0,2114,1569.7,4281.1,-6.9,-9,-158.1,385.7,1570
+678,Abercrombie & Fitch,ANF,Retailing,Specialty Retailers: Apparel,1,0,1,1,80,1,0,0,0,0,19200,6317.3,4280.7,15.8,328.1,11552.1,2974.2,6317
+679,Atmos Energy,ATO,Energy,Utilities: Gas and Electric,1,0,0,1,12,1,0,0,0,0,5019,17930.3,4275.4,1.8,885.9,14.4,22517,17930
+680,Catalent,CTLT,Health Care,Pharmaceuticals,0,0,0,0,-49,0,1,0,0,0,17800,10202.6,4263,-11.2,-256,-153,10777,10203
+681,Brown & Brown,BRO,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,95,1,0,0,0,0,16152,24978.7,4257.1,19.1,870.5,29.6,14883.4,24979
+682,GoDaddy,GDDY,Tech0logy,Internet Services and Retailing,1,0,0,0,22,1,0,0,0,0,6159,16909.3,4254.1,4,1374.8,290.3,7564.9,16909
+683,American Water Works,AWK,Energy,Utilities: Gas and Electric,1,0,1,0,60,1,0,0,0,0,6500,23809.2,4234,11.7,944,15.1,30298,23809
+684,Selective Insurance Group,SIGI,Financials,Insurance: Property and Casualty (Stock),1,0,0,1,95,1,0,0,0,0,2650,6636.6,4232.1,18.9,365.2,62.4,11802.5,6637
+685,Brown-Forman,BF.B,"Food, Beverages & Tobacco",Beverages,1,0,0,1,35,1,0,0,0,0,5600,24616.6,4228,7.5,783,-6.6,7777,24617
+686,Advantage Solutions,ADV,Business Services,"Advertising, marketing",0,0,0,0,21,1,0,0,0,0,45000,1387.4,4224.8,4.3,-63.3,,3779.3,1387
+687,ResMed,RMD,Health Care,Medical Products and Equipment,1,0,0,1,86,1,0,0,0,0,10140,29086.8,4223,18,897.6,15.2,6751.7,29087
+688,Splunk,,Tech0logy,Computer Software,1,0,0,0,76,1,0,0,0,0,7500,,4215.6,15.4,263.7,,6687.4,15868
+689,Plexus,PLXS,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,49,1,0,0,0,0,25000,2618.1,4210.3,10.5,139.1,0.6,3321.2,2618
+690,Hub Group,HUBG,Transportation,Transportation and Logistics,1,0,0,1,-101,0,1,0,0,0,5950,2715.4,4202.6,-21.3,167.5,-53.1,2936,2715
+691,Lincoln Electric Holdings,LECO,Industrials,Industrial Machinery,1,0,0,0,55,1,0,0,0,0,12000,14515.4,4191.6,11.4,545.2,15.5,3377.3,14515
+692,NCR Atleos,NATL,Business Services,Financial Data Services,0,0,0,0,0,0,0,0,0,0,20000,1424,4191,,-134,,5741,1424
+693,Calumet,CLMT,Energy,Petroleum Refining,1,0,0,1,-50,0,1,0,0,0,1580,1192.1,4181,-10.8,48.1,,2751.3,1192
+694,Dycom Industries,DY,Engineering & Construction,Engineering & Construction,1,0,0,1,46,1,0,0,0,0,15611,4175.5,4175.6,9.6,218.9,53.9,2516.9,4176
+695,Valmont Industries,VMI,Materials,Metals,1,0,0,0,-15,0,1,0,0,0,11125,4607.7,4174.6,-3.9,150.8,-39.9,3477.4,4608
+696,ATI,ATI,Materials,Metals,1,0,1,1,38,1,0,0,0,0,7300,6367.6,4173.7,8.8,410.8,213.8,4985.1,6368
+697,Twilio,TWLO,Tech0logy,Internet Services and Retailing,0,0,0,0,39,1,0,0,0,0,5867,11133,4153.9,8.6,-1015.4,,11609.7,11133
+698,C0 Financial Group,C0,Financials,"Insurance: Life, Health (stock)",1,0,0,1,77,1,0,0,0,0,3500,2985.6,4146.8,15.9,276.5,-30.3,35102.5,2986
+699,Patterson-UTI Energy,PTEN,Energy,"Oil and Gas Equipment, Services",1,0,0,1,221,1,0,0,0,0,10600,4873.8,4146.5,56.6,246.3,59.2,7420,4874
+700,Brinker International,EAT,"Hotels, Restaurants & Leisure",Food Services,1,0,0,1,42,1,0,0,0,0,64323,2197.2,4133.2,8.7,102.6,-12.8,2487,2197
+701,Charles River Laboratories International,CRL,Health Care,Health Care: Pharmacy and Other Services,1,0,0,1,13,1,0,0,1,0,21100,13956.8,4129.4,3.9,474.6,-2.4,8195,13957
+702,Hyster-Yale,HY,Industrials,Industrial Machinery,1,0,0,1,80,1,0,0,0,0,8600,1122.3,4118.3,16.1,125.9,,2079.1,1122
+703,Brighthouse Financial,BHF,Financials,"Insurance: Life, Health (stock)",0,0,0,0,-286,0,1,0,0,0,1500,3240.9,4117,-51.4,-1112,-22340,236340,3241
+704,Service Corp. International,SCI,Business Services,Miscellaneous,1,0,0,0,-4,0,1,0,0,0,21267,10872.8,4099.8,-0.2,537.3,-5,16355.4,10873
+705,CrossAmerica Partners,CAPL,Energy,"Oil and Gas Equipment, Services",1,0,0,1,-65,0,1,0,0,0,2521,865.6,4090.5,-12.9,42.6,-33.1,1181.7,866
+706,Cadence,CDNS,Tech0logy,Computer Software,1,0,0,1,72,1,0,0,0,1,11226,84855.2,4090,14.8,1041.1,22.6,5669.5,84855
+707,MillerK0ll,MLKN,Household Products,"Home Equipment, Furnishings",1,0,1,0,11,1,0,0,0,0,10900,1803,4087.1,3.6,42.1,,4274.8,1803
+708,Realty Income,O,Financials,Real estate,1,0,0,1,103,1,0,0,0,0,418,46586.8,4079,22,872.3,0.3,57779.4,46587
+709,Middleby,MIDD,Industrials,Industrial Machinery,1,0,0,0,-1,0,1,0,0,0,10722,8644.6,4036.6,0.1,400.9,-8.2,6906.7,8645
+710,M/I Homes,MHO,Engineering & Construction,Homebuilders,1,0,0,0,-12,0,1,0,0,0,1607,3789.8,4033.5,-2.4,465.4,-5.2,4022.4,3790
+711,Hologic,HOLX,Health Care,Medical Products and Equipment,1,0,0,1,-82,0,1,0,0,0,6990,18299.7,4030.4,-17.1,456,-65,9139.3,18300
+712,Alliant Energy,LNT,Energy,Utilities: Gas and Electric,1,0,1,1,-22,0,1,0,0,0,3281,12907.5,4027,-4.2,703,2.5,21237,12908
+713,Generac Holdings,GNRC,Industrials,Industrial Machinery,1,0,0,0,-54,0,1,0,0,0,8458,7602.4,4022.7,-11.9,214.6,-46.3,5093.3,7602
+714,MSC Industrial Direct,MSM,Wholesalers,Wholesalers: Diversified,1,0,0,1,45,1,0,0,0,0,7254,5463.4,4009.3,8.6,343.2,1,2544.1,5463
+715,Rocket Companies,RKT,Financials,Diversified Financials,0,0,0,0,-173,0,1,0,0,1,14700,28891.1,4005.9,-33.3,-15.5,-133.4,19231.7,28891
+716,Upbound Group,UPBD,Retailing,Specialty Retailers: Other,0,0,0,1,-28,0,1,0,0,0,12970,1916,3992.4,-6,-5.2,-141.9,2721.4,1916
+717,East West Bancorp,EWBC,Financials,Commercial Banks,1,0,0,1,209,1,0,0,0,0,3206,11077.8,3989.1,52.3,1161.2,2.9,69612.9,11078
+718,Hilton Grand Vacations,HGV,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,17,1,0,0,0,0,15000,4945,3978,3.7,313,-11.1,8685,4945
+719,Grocery Outlet Holding,GO,Food & Drug Stores,Food & Drug Stores,1,0,0,1,55,1,0,0,0,0,949,2855.8,3969.5,10.9,79.4,22.1,2969.6,2856
+720,Dentsply Sirona,XRAY,Health Care,Medical Products and Equipment,0,0,0,0,6,1,0,0,0,0,15000,6882.4,3965,1.1,-132,,7370,6882
+721,V2X,VVX,Aerospace & Defense,Aerospace & Defense,0,0,0,1,155,1,0,0,0,0,16000,1469.2,3963.1,37.1,-22.6,,3081.9,1469
+722,Crocs,CROX,Apparel,Apparel,1,0,0,1,59,1,0,0,0,0,7030,8699.7,3962.3,11.5,792.6,46.7,4643.8,8700
+723,Spectrum Brands Holdings,SPB,Household Products,Household and Personal Products,1,0,0,0,-87,0,1,0,0,0,3100,2694.5,3961.3,-17.2,1801.5,2416.1,5258.4,2695
+724,Visteon,VC,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,0,24,1,0,0,0,0,10000,3233.3,3954,5.3,486,291.9,2727,3233
+725,Acuity Brands,AYI,Industrials,"Electronics, Electrical Equip.",1,0,0,0,-14,0,1,0,0,0,12200,8281.4,3952.2,-1.3,346,-9.9,3408.5,8281
+726,Greenbrier,GBX,Transportation,Transportation Equipment,1,0,1,0,139,1,0,0,0,0,13800,1619.8,3944,32.5,62.5,33.3,3978.4,1620
+727,Webster Financial,WBS,Financials,Commercial Banks,1,0,0,0,181,1,0,0,0,0,4196,8709.8,3942.6,44.7,867.8,34.7,74945.2,8710
+728,Cabot,CBT,Chemicals,Chemicals,1,0,0,1,-43,0,1,0,0,0,4268,5110.7,3931,-9,445,112.9,3604,5111
+729,RXO,RXO,Transportation,"Trucking, Truck Leasing",1,0,0,0,-95,0,1,0,0,0,7242,2560.9,3927,-18.1,4,-95.7,1825,2561
+730,Chord Energy,CHRD,Energy,"Mining, Crude-Oil Production",1,0,0,0,33,1,0,0,0,0,514,7404.7,3896.6,6.6,1023.8,-44.8,6926.2,7405
+731,Popular,BPOP,Financials,Commercial Banks,1,0,0,1,76,1,0,0,0,0,9088,6368.4,3896,15.9,541.3,-50.9,70758.2,6368
+732,Garrett Motion,GTX,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,1,38,1,0,0,0,0,8650,2263.4,3886,7.9,261,-33.1,2527,2263
+733,Tutor Perini,TPC,Engineering & Construction,Engineering & Construction,0,0,0,1,12,1,0,0,0,0,8200,752.3,3880.2,2.4,-171.2,,4429.9,752
+734,Copart,CPRT,Retailing,"Automotive Retailing, Services",1,0,0,1,55,1,0,0,0,0,12000,55687.9,3869.5,10.5,1237.7,13.5,6737.9,55688
+735,Toast,TOST,Business Services,Financial Data Services,0,1,0,1,171,1,0,0,0,0,5500,13656.2,3865,41.5,-246,,1958,13656
+736,Align Tech0logy,ALGN,Health Care,Medical Products and Equipment,1,0,0,0,19,1,0,0,0,0,21610,24628.1,3862.3,3.4,445.1,23.1,6083.9,24628
+737,A.O. Smith,AOS,Industrials,"Electronics, Electrical Equip.",1,0,0,0,12,1,0,0,0,0,12000,13156.3,3852.8,2.6,556.6,136.1,3213.9,13156
+738,TransUnion,TRU,Business Services,Financial Data Services,0,0,0,1,13,1,0,0,0,0,13200,15499.5,3831.2,2.3,-206.2,-176.5,11105.1,15500
+739,NCR Voyix,VYX,Tech0logy,Computer Software,0,0,0,0,-296,0,1,0,0,0,15500,1822.4,3830,-51.2,-423,-805,4990,1822
+740,Akamai Tech0logies,AKAM,Tech0logy,Internet Services and Retailing,1,1,0,1,28,1,0,0,0,0,10281,16663.3,3811.9,5.4,547.6,4.6,9900,16663
+741,Trimble,TRMB,Tech0logy,"Electronics, Electrical Equip.",1,0,0,1,19,1,0,0,0,0,12700,15812.4,3798.7,3.3,311.3,-30.8,9539.3,15812
+742,AMN Healthcare Services,AMN,Health Care,Health Care: Pharmacy and Other Services,1,0,1,0,-146,0,1,0,0,0,3585,2368.4,3789.3,-27.7,210.7,-52.6,2924.4,2368
+743,Mettler-Toledo International,MTD,Tech0logy,"Scientific,Photographic and  Control Equipment",1,0,0,0,-17,0,1,0,0,0,16650,28473.6,3788.3,-3.4,788.8,-9.6,3355.6,28474
+744,ScanSource,SCSC,Wholesalers,Wholesalers: Electronics and Office Equipment,1,1,0,0,41,1,0,0,1,0,2300,1108.5,3787.7,7.3,89.8,1.1,2068.2,1109
+745,LCI Industries,LCII,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,0,-143,0,1,0,0,0,11700,3131.6,3784.8,-27.3,64.2,-83.7,2959.3,3132
+746,Cboe Global Markets,CBOE,Financials,Securities,1,0,0,1,-31,0,1,0,0,0,1647,19398.5,3773.5,-4.7,761.4,224,7487.5,19399
+747,Diebold Nixdorf,DBD,Tech0logy,"Computers, Office Equipment",0,0,0,0,50,1,0,0,0,0,21000,1293.8,3760.5,8.7,,,4162,1294
+748,ChampionX,CHX,Energy,"Oil and Gas Equipment, Services",1,0,0,0,-8,0,1,0,0,0,7100,6858.6,3758.3,-1.3,314.2,102.8,3241.7,6859
+749,Corpay,CPAY,Business Services,Financial Data Services,1,0,0,1,50,1,0,0,0,0,10500,22169.7,3757.7,9.6,981.9,2.9,15476.3,22170
+750,iHeartMedia,IHRT,Media,Entertainment,0,0,0,0,-21,0,1,0,0,0,9990,313.1,3751,-4.1,-1102.7,,6952.6,313
+751,Travel + Leisure,TNL,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,25,1,0,0,1,0,19000,3477.7,3750,5.1,396,10.9,6738,3478
+752,Dream Finders Homes,DFH,Engineering & Construction,Homebuilders,1,1,0,1,59,1,0,0,0,0,1236,4078.5,3748.6,12.2,295.9,12.8,2562.4,4079
+753,Boyd Gaming,BYD,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,26,1,0,0,0,0,16129,6466.3,3738.5,5.2,620,-3,6273.1,6466
+754,Ensign Group,ENSG,Health Care,Health Care: Medical Facilities,1,0,0,1,102,1,0,0,0,0,35300,7080.1,3729.4,23.3,209.4,-6.8,4177.5,7080
+755,Sally Beauty Holdings,SBH,Retailing,Specialty Retailers: Other,1,0,1,0,-20,0,1,0,0,0,20000,1302.7,3728.1,-2.3,184.6,0.6,2725.3,1303
+756,Conduent,CNDT,Business Services,Diversified Outsourcing Services,0,0,0,0,-26,0,1,0,0,0,59000,709.7,3722,-3.5,-296,,3162,710
+757,Sylvamo,SLVM,Materials,Forest and Paper Products,1,0,0,0,-63,0,1,0,0,0,6500,2559.8,3721,-10.3,253,114.4,2872,2560
+758,Tri Pointe Homes,TPH,Engineering & Construction,Homebuilders,1,0,0,0,-81,0,1,0,1,0,1438,3710.3,3715.2,-14.6,343.7,-40.3,4914.6,3710
+759,EnerSys,ENS,Industrials,"Electronics, Electrical Equip.",1,0,0,0,49,1,0,0,0,0,11350,3817.7,3708.6,10.5,175.8,22.2,3616.7,3818
+760,Incyte,INCY,Health Care,Pharmaceuticals,1,0,0,1,39,1,0,0,0,0,2524,12791.3,3695.6,8.9,597.6,75.4,6782.1,12791
+761,Century Communities,CCS,Engineering & Construction,Homebuilders,1,1,0,1,-99,0,1,0,0,0,1650,3066.9,3692.2,-18.1,259.2,-50.6,4139.4,3067
+762,Rithm Capital,RITM,Financials,Real estate,1,0,0,1,-112,0,1,0,0,0,6570,5392.8,3691.9,-19.9,622.3,-34.8,35311.8,5393
+763,Euronet Worldwide,EEFT,Business Services,Financial Data Services,1,1,0,1,43,1,0,0,0,0,10000,5032.9,3688,9.8,279.7,21.1,5894.4,5033
+764,Hawaiian Electric Industries,HE,Energy,Utilities: Gas and Electric,1,0,0,0,-13,0,1,0,0,0,3652,1243.1,3682.2,-1.6,199.2,-17.4,17243.8,1243
+765,DraftKings,DKNG,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",0,1,0,1,0,0,0,0,0,0,4400,39447.3,3665.4,63.6,-802.1,,3944.9,39447
+766,IDEXX Laboratories,IDXX,Health Care,Medical Products and Equipment,1,0,0,1,36,1,0,0,0,0,11000,44843.4,3661,8.7,845,24.4,3259.9,44843
+767,MYR Group,MYRG,Engineering & Construction,Engineering & Construction,1,0,0,1,93,1,0,0,0,0,9000,2958.7,3643.9,21.1,91,9.1,1578.7,2959
+768,Deckers Outdoor,DECK,Apparel,Apparel,1,0,0,1,72,1,0,0,0,0,4200,24160.5,3627.3,15.1,516.8,14.4,2556.2,24161
+769,DexCom,DXCM,Health Care,Medical Products and Equipment,1,0,0,1,103,1,0,0,0,0,9550,53471,3622.3,24.5,541.5,58.7,6264.5,53471
+770,MKS Instruments,MKSI,Tech0logy,Semiconductors and Other Electronic Components,0,0,0,0,11,1,0,0,0,0,10100,8918.4,3622,2.1,-1841,-652.9,9118,8918
+771,VICI Properties,VICI,Financials,Real estate,1,0,0,1,160,1,0,0,0,0,28,31075.1,3612,38.9,2513.5,124.9,44059.8,31075
+772,Cooper Cos.,COO,Health Care,Medical Products and Equipment,1,0,0,1,45,1,0,0,0,0,15000,20165.8,3593.2,8.6,294.2,-23.7,11658.9,20166
+773,Frontier Group Holdings,ULCC,Transportation,Airlines,0,0,0,1,40,1,0,0,0,0,7214,1811.6,3589,7.9,-11,,4993,1812
+774,Qorvo,QRVO,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,-131,0,1,0,0,0,8500,11086.7,3569.4,-23.2,103.2,-90,6691.9,11087
+775,Five Below,FIVE,Retailing,Specialty Retailers: Other,1,0,0,1,72,1,0,0,0,0,14500,10018.5,3559.4,15.7,301.1,15.1,3872,10019
+776,TreeHouse Foods,THS,"Food, Beverages & Tobacco",Food Consumer Products,1,0,0,0,-132,0,1,0,0,0,7400,2097.9,3552.9,-23.4,53.1,,4106.6,2098
+777,Scotts Miracle-Gro,SMG,Chemicals,Chemicals,0,0,0,0,-54,0,1,0,0,0,6375,4228.7,3551.3,-9.5,-380.1,,3413.7,4229
+778,Atlassian,TEAM,Tech0logy,Computer Software,0,1,0,1,105,1,0,0,0,1,10726,50612.9,3534.6,26.1,-486.8,,4106.8,50613
+779,Entegris,ENTG,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,43,1,0,0,0,0,8000,21184.1,3523.9,7.4,180.7,-13.5,8812.6,21184
+780,Atkore,ATKR,Industrials,"Electronics, Electrical Equip.",1,0,0,1,-54,0,1,0,0,0,5208,6999.2,3518.8,-10.1,689.9,-24.5,2935,6999
+781,H.B. Fuller,FUL,Chemicals,Chemicals,1,0,1,1,-33,0,1,0,0,0,7200,4345,3510.9,-6.4,144.9,-19.6,4723.6,4345
+782,Granite Construction,GVA,Engineering & Construction,Engineering & Construction,1,0,0,1,38,1,0,0,1,0,4100,2512.1,3509.1,6.3,43.6,-47.7,2813.5,2512
+783,Winnebago Industries,WGO,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,0,-162,0,1,0,0,0,6250,2165.9,3490.7,-29.6,215.9,-44.7,2432.4,2166
+784,FTI Consulting,FCN,Business Services,Diversified Outsourcing Services,1,0,0,1,71,1,0,0,0,0,7990,7472.3,3489.2,15.2,274.9,16.7,3325.9,7472
+785,AptarGroup,ATR,Materials,"Packaging, Containers",1,0,0,1,29,1,0,0,0,0,13800,9520.6,3487.5,5,284.5,18.9,4451.9,9521
+786,Columbia Sportswear,COLM,Apparel,Apparel,1,0,0,1,8,1,0,0,0,0,10070,4854.2,3487.2,0.7,251.4,-19.3,2939,4854
+787,Roku,ROKU,Media,Entertainment,0,1,0,0,55,1,0,0,0,0,3150,9353.3,3484.6,11.5,-709.6,,4261.8,9353
+788,Civitas Resources,CIVI,Energy,"Mining, Crude-Oil Production",1,0,0,1,-46,0,1,0,0,0,516,7668.5,3479.2,-8.2,784.3,-37.2,14097.3,7669
+789,H&R Block,HRB,Financials,Diversified Financials,1,0,0,1,6,1,0,0,0,0,39200,6851.9,3472.2,0.3,553.7,,3072.3,6852
+790,Alpha Metallurgical Resources,AMR,Energy,"Mining, Crude-Oil Production",1,0,0,1,-91,0,1,0,0,0,4160,4307.6,3471.4,-15.4,722,-50.2,2406.1,4308
+791,Patrick Industries,PATK,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,0,-165,0,1,0,0,0,10000,2674,3468,-29,142.9,-56.5,2562.4,2674
+792,Murphy Oil,MUR,Energy,"Mining, Crude-Oil Production",1,0,0,1,-73,0,1,0,0,0,725,6972.7,3460.1,-12,661.6,-31.4,9766.7,6973
+793,Sy0vus Financial,SNV,Financials,Commercial Banks,1,0,0,0,163,1,0,0,0,0,4798,5865.5,3454.4,39,543.7,-28.3,59809.5,5866
+794,Cracker Barrel Old Country Store,CBRL,"Hotels, Restaurants & Leisure",Food Services,1,0,1,1,31,1,0,0,0,0,77000,1614.7,3442.8,5.4,99.1,-24.9,2218.1,1615
+795,Cheesecake Factory,CAKE,"Hotels, Restaurants & Leisure",Food Services,1,1,0,1,24,1,0,0,0,1,47900,1847.8,3439.5,4.1,101.4,135,2840.4,1848
+796,CNX Resources,CNX,Energy,"Mining, Crude-Oil Production",1,0,0,1,0,0,0,0,0,0,470,3632.4,3434.9,172.4,1720.7,,8626.7,3632
+797,Chefs' Warehouse,CHEF,Wholesalers,Wholesalers: Food and Grocery,1,1,0,1,131,1,0,0,0,0,4873,1499.2,3433.8,31.4,34.6,24.6,1705.3,1499
+798,Donaldson,DCI,Industrials,Industrial Machinery,1,0,0,0,20,1,0,0,0,0,13000,8989.2,3430.8,3.8,358.8,7.8,2770.5,8989
+799,Mueller Industries,MLI,Industrials,Industrial Machinery,1,0,0,0,-88,0,1,0,0,0,4509,6126.3,3420.3,-14.1,602.9,-8.4,2759.3,6126
+800,MRC Global,MRC,Wholesalers,Wholesalers: Diversified,1,0,0,0,4,1,0,0,0,0,2800,1060.8,3412,1.5,114,52,1886,1061
+801,Chart Industries,GTLS,Industrials,Industrial Machinery,1,0,1,1,0,0,0,0,0,0,11637,6964,3411.3,111.6,47.3,97.1,9102.4,6964
+802,Alight,ALIT,Business Services,Diversified Outsourcing Services,0,0,0,0,39,1,0,0,0,0,18000,5545.4,3410,8.9,-345,,10782,5545
+803,Vishay Intertech0logy,VSH,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,-14,0,1,0,0,0,23500,3118.6,3402,-2.7,323.8,-24.5,4239.9,3119
+804,Range Resources,RRC,Energy,"Mining, Crude-Oil Production",1,0,0,1,-111,0,1,0,0,0,548,8352.5,3374.4,-18.6,871.1,-26.4,7203.9,8353
+805,Valley National Bancorp,VLY,Financials,Commercial Banks,1,0,0,0,0,0,0,0,0,0,3749,4050.7,3364.6,54.1,498.5,-12.4,60935,4051
+806,Match Group,MTCH,Tech0logy,Internet Services and Retailing,1,0,0,0,30,1,0,0,0,0,2610,9723.5,3364.5,5.5,651.5,80,4507.9,9724
+807,Gen Digital,GEN,Tech0logy,Computer Software,1,0,0,1,79,1,0,0,0,0,3700,14266.8,3338,19.4,1349,61.4,15947,14267
+808,Wintrust Financial,WTFC,Financials,Commercial Banks,1,0,0,1,0,0,0,0,0,0,5521,6417.1,3327.2,50.7,622.6,22.2,56259.9,6417
+809,Moog,MOG.A,Aerospace & Defense,Aerospace & Defense,1,0,0,0,44,1,0,0,0,0,13500,5306.8,3319.1,9.3,171,10.2,3808,5307
+810,First Solar,FSLR,Energy,Energy,1,0,0,1,115,1,0,0,0,0,6700,18068,3318.6,26.7,830.8,,10365.1,18068
+811,Central Garden & Pet,CENT,Household Products,Household and Personal Products,1,0,1,0,0,0,0,0,0,0,6500,2435.1,3310.1,-0.9,125.6,-17.4,3378.6,2435
+812,Green Plains,GPRE,Energy,Energy,0,0,0,1,-52,0,1,0,0,0,921,1494.6,3295.7,-10,-93.4,,1939.3,1495
+813,Werner Enterprises,WERN,Transportation,"Trucking, Truck Leasing",1,0,0,0,8,1,0,0,0,0,13809,2482.9,3283.5,-0.2,112.4,-53.4,3157.9,2483
+814,AppLovin,APP,Tech0logy,Computer Software,1,1,0,1,67,1,0,0,0,0,1731,22795.6,3283.1,16.5,356.7,,5359.2,22796
+815,ITT,ITT,Industrials,Industrial Machinery,1,0,0,1,47,1,0,0,0,0,10600,11168.1,3283,9.9,410.5,11.9,3932.6,11168
+816,Herc Holdings,HRI,Business Services,Equipment Leasing,1,0,0,1,86,1,0,0,0,0,7200,4773,3282,19.8,347,5.2,7061,4773
+817,Gray Television,GTN,Media,Entertainment,0,0,0,1,-58,0,1,0,0,0,9649,634.8,3281,-10.7,-76,-116.7,10640,635
+818,IDEX,IEX,Industrials,Industrial Machinery,1,0,0,0,20,1,0,0,0,0,8800,18469.6,3273.9,2.9,596.1,1.6,5865.2,18470
+819,Boston Properties,BXP,Financials,Real estate,1,0,0,1,26,1,0,0,0,0,836,10254.4,3273.6,5.3,190.2,-77.6,26026.1,10254
+820,Pitney Bowes,PBI,Tech0logy,Computer Software,0,0,0,0,-38,0,1,0,0,0,10500,764.4,3266.3,-7.7,-385.6,-1143.9,4272.2,764
+821,Steelcase,SCS,Household Products,"Home Equipment, Furnishings",1,0,1,0,75,1,0,0,1,0,12250,1494,3232.6,16.6,35.3,782.5,2202.8,1494
+822,Sun Communities,SUI,Financials,Real estate,0,0,0,0,44,1,0,0,0,0,6757,15996.9,3224.6,8.6,-213.3,-188.1,16940.7,15997
+823,AdaptHealth,AHCO,Health Care,Wholesalers: Health Care,0,0,1,0,42,1,0,0,0,0,10700,1529.8,3200.2,7.7,-678.9,-1079.4,4508.7,1530
+824,Vertex Energy,VTNR,Energy,Petroleum Refining,0,1,0,0,54,1,0,0,0,0,481,130.9,3184.6,10.7,-71.5,,854.6,131
+825,Genesis Energy,GEL,Energy,Pipelines,1,0,0,1,64,1,0,0,0,0,2137,1361.8,3177,13.9,117.7,56,7018.8,1362
+826,Jackson Financial,JXN,Financials,"Insurance: Life, Health (stock)",1,0,1,0,-577,0,1,0,0,0,3428,5120,3159,-78.3,934,-83.6,330255,5120
+827,FirstCash Holdings,FCFS,Retailing,Specialty Retailers: Other,1,0,0,1,78,1,0,0,0,0,19000,5753.1,3151.8,15.5,219.3,-13.5,4289.9,5753
+828,Cal-Maine Foods,CALM,"Food, Beverages & Tobacco",Food Production,1,0,0,0,0,0,0,0,0,0,2896,2882.6,3146.2,77,758,471.4,1954.5,2883
+829,Arch Resources,ARCH,Energy,"Mining, Crude-Oil Production",1,0,0,0,-75,0,1,0,0,0,3404,2933.8,3145.8,-15.5,464,-65.1,2484.2,2934
+830,Avient,AVNT,Chemicals,Chemicals,1,0,0,0,-194,0,1,0,0,0,9300,3960.5,3142.8,-33.5,75.7,-89.2,5968.5,3961
+831,Ca0 Health,,Health Care,Health Care: Medical Facilities,0,0,0,0,70,1,0,0,0,0,2700,1.2,3137.8,14.6,-594.4,,1013.7,1
+832,BlueLinx Holdings,BXC,Wholesalers,Wholesalers: Diversified,1,0,0,0,-166,0,1,0,0,0,1990,1126.6,3136.4,-29.5,48.5,-83.6,1537.6,1127
+833,Sinclair,SBGI,Media,Entertainment,0,0,0,0,-112,0,1,0,0,0,7300,856.7,3134,-20.2,-291,-111,6085,857
+834,BOK Financial,BOKF,Financials,Commercial Banks,1,0,0,1,0,0,0,0,0,0,4966,5945.7,3132.4,53.9,530.7,2,49824.8,5946
+835,Permian Resources,PR,Energy,"Mining, Crude-Oil Production",1,0,0,1,0,0,0,0,0,0,461,13631.1,3120.9,46.4,476.3,-7.5,14965.6,13631
+836,Coinbase Global,COIN,Financials,Securities,1,1,0,0,-2,0,1,0,0,0,3416,64232,3108.4,-2.7,94.9,,206983,64232
+837,Western Midstream Partners,WES,Energy,Pipelines,1,0,0,1,-11,0,1,0,0,0,1377,13526.2,3106.5,-4.5,1022.2,-16,12471.6,13526
+838,G-III Apparel Group,GIII,Apparel,Apparel,1,0,0,0,-8,0,1,0,0,0,4050,1317.6,3098.2,-4,176.2,,2681.2,1318
+839,Vontier,VNT,Tech0logy,"Electronics, Electrical Equip.",1,0,0,0,-4,0,1,0,0,0,8000,6980.9,3095.2,-2.8,376.9,-6.1,4294,6981
+840,Matson,MATX,Transportation,Shipping,1,0,0,1,-163,0,1,0,0,0,4315,3876.4,3094.6,-28.7,297.1,-72.1,4294.6,3876
+841,Kirby,KEX,Transportation,Shipping,1,0,0,1,48,1,0,0,0,0,5450,5573.5,3091.6,11,222.9,82.3,5722.2,5574
+842,Kaiser Aluminum,KALU,Materials,Metals,1,0,0,0,-47,0,1,0,0,0,4000,1431.2,3087,-9.9,47.2,,2267.4,1431
+843,Vista Outdoor,VSTO,Business Services,"Toys, Sporting Goods",0,0,0,1,7,1,0,0,0,0,7000,1906.1,3079.8,1.2,-9.7,-102.1,2798.9,1906
+844,Designer Brands,DBI,Retailing,Specialty Retailers: Apparel,1,0,0,0,-30,0,1,0,0,0,14000,625.6,3075,-7.3,29.1,-82.1,2076.2,626
+845,Rollins,ROL,Business Services,Diversified Outsourcing Services,1,0,0,1,66,1,0,0,0,0,19031,22419.4,3073.3,14,435,18,2595.5,22419
+846,Advanced Drainage Systems,WMS,Materials,"Building Materials, Glass",1,0,0,1,49,1,0,0,0,0,5870,13368.7,3071.1,10.9,507.1,86.9,2901.1,13369
+847,Cinemark Holdings,CNK,Media,Entertainment,1,0,0,1,111,1,0,0,0,0,17888,2188.3,3066.7,24.9,188.2,,4836.8,2188
+848,CrowdStrike,CRWD,Tech0logy,Computer Software,1,1,0,1,0,0,0,0,0,1,7925,77540.7,3055.6,36.3,89.3,,6646.5,77541
+849,Pinterest,PINS,Tech0logy,Internet Services and Retailing,0,0,0,1,33,1,0,0,0,0,4014,23540.4,3055.1,9,-35.6,,3594.4,23540
+850,Instacart,CART,Retailing,Internet Services and Retailing,0,0,1,0,0,0,0,0,0,0,3380,9937.7,3042,19.2,-1622,-479,4727,9938
+851,Hillenbrand,HI,Industrials,Industrial Machinery,1,0,1,0,16,1,0,0,0,0,10400,3527.9,3039.7,3.4,569.7,172.7,5547.7,3528
+852,Allison Transmission Holdings,ALSN,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,1,44,1,0,0,0,0,3700,7110.6,3035,9.6,673,26.7,5025,7111
+853,RH,RH,Retailing,Specialty Retailers: Other,1,0,0,0,-86,0,1,0,0,0,5645,6378.6,3029.1,-15.6,127.6,-75.9,4143.9,6379
+854,Brookdale Senior Living,BKD,Health Care,Health Care: Medical Facilities,0,0,1,0,24,1,0,0,0,0,30600,1251.5,3015.8,6.7,-189,,5573.4,1252
+855,QuidelOrtho,QDEL,Health Care,Medical Products and Equipment,0,0,0,1,-31,0,1,0,0,0,7100,3204.8,2997.8,-8.2,-10.1,-101.8,8563.1,3205
+856,Trinity Industries,TRN,Transportation,Transportation Equipment,1,0,1,1,0,0,0,0,0,0,9480,2279.8,2983.3,50.9,106,76.4,8906.5,2280
+857,Teleflex,TFX,Health Care,Medical Products and Equipment,1,0,0,0,29,1,0,0,0,0,14500,10642.8,2974.5,6.6,356.3,-1.9,7532.5,10643
+858,HEICO,HEI,Aerospace & Defense,Aerospace & Defense,1,0,0,1,0,0,0,0,0,0,9600,23341.3,2968.1,34.4,403.6,14.8,7195.1,23341
+859,Bruker,BRKR,Tech0logy,"Scientific,Photographic and  Control Equipment",1,0,0,1,86,1,0,0,0,0,9707,12932.8,2964.5,17.1,427.2,44,4249.9,12933
+860,Carlyle Group,CG,Financials,Securities,0,0,0,1,-195,0,1,0,0,0,2200,16986.8,2963.9,-33.2,-608.4,-149.7,21176,16987
+861,Energizer Holdings,ENR,Household Products,Household and Personal Products,1,0,0,0,-12,0,1,0,0,0,5080,2113.3,2959.7,-3,140.5,,4509.6,2113
+862,Quad/Graphics,QUAD,Media,"Publishing, Printing",0,0,0,0,-31,0,1,0,0,0,13150,277.6,2957.7,-8.1,-55.4,-695.7,1509.7,278
+863,Rackspace Tech0logy,RXT,Tech0logy,Internet Services and Retailing,0,0,0,0,-21,0,1,0,0,0,5800,347.2,2957.1,-5.3,-837.8,,4096.2,347
+864,Waters,WAT,Tech0logy,"Scientific,Photographic and  Control Equipment",1,0,0,0,-2,0,1,0,0,0,7900,20379.3,2956.4,-0.5,642.2,-9.3,4626.9,20379
+865,West Pharmaceutical Services,WST,Health Care,Medical Products and Equipment,1,0,0,0,8,1,0,0,0,0,10600,28968.1,2949.8,2.2,593.4,1.3,3829.5,28968
+866,Carter's,CRI,Apparel,Apparel,1,0,0,0,-34,0,1,0,0,0,15230,3089.2,2945.6,-8.3,232.5,-7,2378.6,3089
+867,NeueHealth,NEUE,Health Care,Health Care: Insurance and Managed Care,0,0,0,0,-355,0,1,0,0,0,1252,52.4,2938.1,-53.9,-1151.5,,1225.5,52
+868,SkyWest,SKYW,Transportation,Airlines,1,0,0,0,-9,0,1,0,0,0,12296,2788.3,2935.4,-2.3,34.3,-52.9,7026.3,2788
+869,Acadia Healthcare,ACHC,Health Care,Health Care: Medical Facilities,0,0,0,1,58,1,0,0,0,0,20250,7322.1,2928.7,12.2,-21.7,-107.9,5358.8,7322
+870,Revvity,RVTY,Health Care,Medical Products and Equipment,1,0,0,0,-223,0,1,0,0,0,11500,12970.1,2926.9,-36.5,693.1,21.8,13564.7,12970
+871,Portland General Electric,POR,Energy,Utilities: Gas and Electric,1,0,1,0,46,1,0,0,0,0,2842,4251.3,2923,10.4,228,-2.1,11208,4251
+872,Woodward,WWD,Aerospace & Defense,Aerospace & Defense,1,0,0,1,0,0,0,0,0,0,8800,9293.2,2914.6,22.3,232.4,35.3,4010.2,9293
+873,TEGNA,TGNA,Media,Entertainment,1,0,0,0,-52,0,1,0,0,0,6200,2631,2910.9,-11.2,476.7,-24.4,7000.1,2631
+874,Sabre,SABR,Retailing,Internet Services and Retailing,0,0,0,0,70,1,0,0,0,0,6232,918.4,2907.7,14.6,-527.6,,4672.2,918
+875,Light & Wonder,LNW,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,0,1,0,0,0,0,0,0,6500,9170.7,2902,0.7,163,-95.6,5552,9171
+876,Vail Resorts,MTN,"Hotels, Restaurants & Leisure","Hotels, Casi0s, Resorts",1,0,1,1,70,1,0,0,0,0,32100,8460.4,2889.4,14.4,268.1,-22.9,5947.8,8460
+877,Radius Recycling,RDUS,Materials,Metals,0,0,1,0,-88,0,1,0,0,0,3353,588.7,2882.2,-17.3,-25.8,-115.3,1715.9,589
+878,PennyMac Financial Services,PFSI,Financials,Diversified Financials,1,0,0,0,52,1,0,0,0,0,3914,4593.5,2881.8,10.9,144.7,-69.6,18844.6,4594
+879,Saia,SAIA,Transportation,"Trucking, Truck Leasing",1,0,0,1,6,1,0,0,0,0,14000,15554,2881.4,3.2,354.9,-0.7,2583.6,15554
+880,Equity Residential,EQR,Financials,Real estate,1,0,0,0,21,1,0,0,0,0,2400,23953.6,2874,5.1,835.4,7.5,20034.6,23954
+881,Helmerich & Payne,HP,Energy,"Oil and Gas Equipment, Services",1,0,0,0,0,0,0,0,0,0,7100,4156.6,2872.4,39.5,434.1,6143.3,4382,4157
+882,Korn Ferry,KFY,Business Services,Diversified Outsourcing Services,1,0,0,0,36,1,0,0,0,0,10697,3431.4,2863.8,8.3,209.5,-35.8,3574.4,3431
+883,PC Connection,CNXN,Wholesalers,Wholesalers: Electronics and Office Equipment,1,0,0,1,-42,0,1,0,0,0,2703,1738.1,2850.6,-8.8,83.3,-6.7,1188.4,1738
+884,Curtiss-Wright,CW,Aerospace & Defense,Aerospace & Defense,1,0,1,1,56,1,0,0,0,0,8600,9797.4,2845.4,11.3,354.5,20.4,4621,9797
+885,SLM,SLM,Financials,Diversified Financials,1,0,0,1,0,0,0,0,0,0,1740,4801.4,2839.4,20,581.4,24,29169.5,4801
+886,Benchmark Electronics,BHE,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,1,-12,0,1,0,0,0,12703,1073.6,2839,-1.6,64.3,-5.7,2274.8,1074
+887,American National Group,AEL,Financials,"Insurance: Life, Health (stock)",1,0,0,1,0,0,0,0,0,0,1020,4463.9,2836,100.4,210.5,-82.8,79918.3,4464
+888,Pure Storage,PSTG,Tech0logy,"Computers, Office Equipment",1,0,0,1,10,1,0,0,0,0,5600,16892.1,2830.6,2.8,61.3,-16.1,3655.8,16892
+889,Knife River,KNF,Materials,"Building Materials, Glass",1,0,0,0,0,0,0,0,0,0,4389,4589.9,2830.4,,182.9,,2599.8,4590
+890,Caleres,CAL,Retailing,Specialty Retailers: Apparel,1,0,0,0,-25,0,1,0,0,0,7150,1456.7,2817.3,-5.1,171.4,-5.7,1804.7,1457
+891,BrightView Holdings,BV,Business Services,Diversified Outsourcing Services,0,0,0,0,1,1,0,0,0,0,20700,1123.4,2816,1.5,-7.7,-155,3352.2,1123
+892,Cooper-Standard Holdings,CPS,Motor Vehicles & Parts,Motor Vehicles & Parts,0,0,0,0,55,1,0,0,0,0,21500,284.8,2815.9,11.5,-202,,1872.3,285
+893,Primerica,PRI,Financials,"Insurance: Life, Health (stock)",1,0,0,1,12,1,0,0,0,0,3150,8777.3,2815.7,3.5,576.6,54.6,15027.7,8777
+894,F5,FFIV,Tech0logy,Network and Other Communications Equipment,1,0,0,0,16,1,0,0,0,0,6492,11149.1,2813.2,4.4,394.9,22.6,5248.3,11149
+895,Matador Resources,MTDR,Energy,"Mining, Crude-Oil Production",1,1,0,1,-48,0,1,0,0,0,395,8331.6,2806.8,-8.2,846.1,-30.3,7727,8332
+896,S0wflake,S0W,Tech0logy,Internet Services and Retailing,0,0,0,1,0,0,0,0,0,0,7004,54006.7,2806.5,35.9,-836.1,,8223.4,54007
+897,Viasat,VSAT,Tech0logy,Network and Other Communications Equipment,1,1,0,0,-9,0,1,0,0,0,6800,2267,2803.2,0.6,1084.8,,7730.3,2267
+898,California Resources,CRC,Energy,"Mining, Crude-Oil Production",1,0,0,0,9,1,0,0,0,0,970,3788.8,2801,3.5,564,7.6,3998,3789
+899,Peloton Interactive,PTON,"Hotels, Restaurants & Leisure","Toys, Sporting Goods",0,0,1,0,-131,0,1,0,0,0,3541,1572,2800.2,-21.8,-1261.7,,2769.1,1572
+900,Roblox,RBLX,Media,Entertainment,0,1,0,1,0,0,0,0,0,0,2457,24115.9,2799.3,25.8,-1151.9,,6168.1,24116
+901,Installed Building Products,IBP,Engineering & Construction,Homebuilders,1,0,0,1,14,1,0,0,0,0,10600,7339.2,2778.6,4.1,243.7,9.1,1981.3,7339
+902,First National of Nebraska,FINN,Financials,Commercial Banks,1,0,0,0,0,0,0,0,0,0,4799,3265.1,2777.5,40.6,227.4,-29.5,31285.9,3265
+903,Guess,GES,Retailing,Specialty Retailers: Apparel,1,0,0,0,10,1,0,0,0,0,12000,1689.9,2776.5,3.3,198.2,32.5,2590,1690
+904,ESAB,ESAB,Industrials,Industrial Machinery,1,0,0,0,28,1,0,0,0,0,9000,6671.5,2774.8,7,205.3,-8.3,3828.6,6672
+905,AvalonBay Communities,AVB,Financials,Real estate,1,0,0,1,27,1,0,0,0,0,3009,26383.6,2767.9,6.7,928.8,-18.3,20678.2,26384
+906,DocuSign,DOCU,Tech0logy,Computer Software,1,0,0,0,41,1,0,0,0,0,6840,12232.5,2761.9,9.8,74,,2971.3,12233
+907,Titan Machinery,TITN,Retailing,Specialty Retailers: Other,1,0,0,1,0,0,0,0,0,0,3471,566.9,2758.4,24.9,112.4,10.4,1992.3,567
+908,ModivCare,MODV,Health Care,Health Care: Pharmacy and Other Services,0,0,0,1,41,1,0,0,0,0,21200,332.9,2756.2,9.7,-204.5,,1767.3,333
+909,Hovnanian Enterprises,HOV,Engineering & Construction,Homebuilders,1,0,0,0,-42,0,1,0,0,0,1715,956.7,2756,-5.7,205.9,-8.7,2492.9,957
+910,Etsy,ETSY,Retailing,Internet Services and Retailing,1,0,0,0,26,1,0,0,0,0,2420,8142.8,2748.4,7.1,307.6,,2685.4,8143
+911,Adams Resources & Energy,AE,Energy,Petroleum Refining,1,0,0,0,-111,0,1,0,0,0,741,74.4,2745.3,-18.5,0.2,-93.9,361.3,74
+912,Surgery Partners,SGRY,Health Care,Health Care: Medical Facilities,0,0,0,1,30,1,0,0,0,0,12000,3776.7,2743.3,8,-11.9,,6876.7,3777
+913,Columbia Banking System,COLB,Financials,Commercial Banks,1,0,0,1,0,0,0,0,0,0,5114,4050.2,2743.3,103.6,348.7,3.6,52173.6,4050
+914,Verisk,VRSK,Business Services,Financial Data Services,1,0,0,1,-63,0,1,0,0,0,7500,33801.3,2728.2,-10.1,614.6,-35.6,4366.1,33801
+915,MasterBrand,MBC,Materials,"Building Materials, Glass",1,0,0,0,0,0,0,0,0,0,12307,2380,2726.2,,182,,2381.7,2380
+916,Hawaiian Holdings,HA,Transportation,Airlines,0,0,0,1,2,1,0,0,0,0,7362,690.8,2716.3,2.8,-260.5,,3733.5,691
+917,AMC Networks,AMCX,Media,Entertainment,1,0,1,0,-74,0,1,0,0,0,1900,528.4,2711.9,-12.4,215.5,2737.3,4969.8,528
+918,SBA Communications,SBAC,Financials,Real estate,1,0,0,0,1,1,0,0,0,0,1787,23427.2,2711.6,3,501.8,8.8,10178.4,23427
+919,Americold Realty Trust,COLD,Financials,Real estate,0,0,0,0,-51,0,1,0,0,0,14632,7071.9,2702.8,-7.3,-336.2,,7869.3,7072
+920,NewMarket,NEU,Chemicals,Chemicals,1,0,0,0,-24,0,1,0,0,0,2000,6085.6,2698.4,-2.4,388.9,39.1,2308.9,6086
+921,Park Hotels & Resorts,PK,Financials,Real estate,1,0,0,0,30,1,0,0,0,0,90,3682.3,2698,7.9,97,-40.1,9419,3682
+922,Alexandria Real Estate Equities,ARE,Financials,Real estate,1,0,0,0,0,0,0,0,0,0,568,22555.2,2690.3,19.2,103.6,-80.1,36771.4,22555
+923,Griffon,GFF,Materials,"Building Materials, Glass",1,0,0,0,-67,0,1,0,0,0,5700,3763,2685.2,-10.8,77.6,,2418.9,3763
+924,Air Lease,AL,Business Services,Equipment Leasing,1,0,0,1,0,0,0,0,0,0,163,5728.7,2685,15.9,614.6,,30452.3,5729
+925,Teradyne,TER,Tech0logy,Semiconductors and Other Electronic Components,1,0,0,0,-90,0,1,0,0,0,6500,17260,2676.3,-15.2,448.8,-37.3,3486.8,17260
+926,OGE Energy,OGE,Energy,Utilities: Gas and Electric,1,0,0,1,-130,0,1,0,0,0,2329,6871.3,2674.3,-20.8,416.8,-37.4,12790.7,6871
+927,Bio-Rad Laboratories,BIO,Tech0logy,"Scientific,Photographic and  Control Equipment",0,0,0,0,-46,0,1,0,0,0,8030,9794,2671.3,-4.7,-637.3,,12299.1,9794
+928,Spire,SR,Energy,Utilities: Gas and Electric,1,0,0,1,0,0,0,0,0,0,3589,3374.3,2666.3,21.3,217.5,-1.5,10313.6,3374
+929,Gannett,GCI,Media,"Publishing, Printing",0,0,0,0,-65,0,1,0,0,0,12800,363.1,2663.6,-9.6,-27.8,,2181.2,363
+930,Stericycle,SRCL,Business Services,Waste Management,0,0,1,0,-23,0,1,0,0,0,13948,4882.9,2659.3,-1.7,-21.4,-138.2,5352.6,4883
+931,Cullen/Frost Bankers,CFR,Financials,Commercial Banks,1,0,0,1,0,0,0,0,0,0,5495,7228.9,2646.3,40.7,598,3.3,50845,7229
+932,Extra Space Storage,EXR,Financials,Real estate,1,0,0,1,0,0,0,0,0,0,7618,31101.5,2645.1,32.7,803.2,-6.7,27456.3,31102
+933,REV Group,REVG,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,0,0,0,0,0,0,0,6724,1144.3,2638,13.1,45.3,198,1410.4,1144
+934,ProFrac Holding,ACDC,Energy,"Oil and Gas Equipment, Services",0,1,0,0,26,1,0,0,0,0,2949,1334.2,2630,8.4,-97.7,-206.8,3070.7,1334
+935,0rdson,NDSN,Industrials,Industrial Machinery,1,0,0,1,-3,0,1,0,0,0,7900,15701.6,2628.6,1.5,487.5,-5,5251.8,15702
+936,Summit Materials,SUM,Materials,"Building Materials, Glass",1,0,1,1,25,1,0,0,0,0,5300,7767.1,2619.5,8.6,285.9,5,5149.6,7767
+937,Valvoline,VVV,Chemicals,Chemicals,1,0,1,1,-221,0,1,0,0,0,10250,5778.5,2617.9,-33.4,1419.7,234.6,2889.9,5779
+938,Kontoor Brands,KTB,Apparel,Apparel,1,0,0,0,-19,0,1,0,0,0,13700,3359.5,2607.5,-0.9,231,-5.9,1645.4,3360
+939,Skyline Champion,SKY,Engineering & Construction,Homebuilders,1,0,0,0,0,0,0,0,0,0,7700,4909.6,2606.6,18.1,401.8,62,1562.7,4910
+940,Teladoc Health,TDOC,Health Care,Health Care: Pharmacy and Other Services,0,0,1,0,22,1,0,0,0,0,5208,2522.3,2602.4,8.1,-220.4,,4392.4,2522
+941,Louisiana-Pacific,LPX,Materials,"Building Materials, Glass",1,0,0,0,-261,0,1,0,0,0,4100,6067.6,2581,-40.1,178,-83.6,2437,6068
+942,Universal,UVV,"Food, Beverages & Tobacco",Tobacco,1,0,0,1,0,0,0,0,0,0,19600,1270.9,2569.8,22.2,124.1,43.3,2639.2,1271
+943,Consol Energy,CEIX,Energy,"Mining, Crude-Oil Production",1,0,0,1,0,0,0,0,0,0,2020,2480,2568.9,22.2,655.9,40.5,2675,2480
+944,Encore Wire,,Industrials,"Electronics, Electrical Equip.",1,0,0,0,-91,0,1,0,0,0,1629,4147.7,2567.7,-14.9,372.4,-48.1,1967.9,4148
+945,Playtika Holding,PLTK,Media,Entertainment,1,1,0,0,-22,0,1,0,0,0,3600,2613.1,2567,-1.9,235,-14.6,3175,2613
+946,Alliance Resource Partners,ARLP,Energy,"Mining, Crude-Oil Production",1,0,0,1,17,1,0,0,0,0,3595,2567.6,2566.7,6.7,630.1,7.5,2788.4,2568
+947,Envista Holdings,NVST,Health Care,Medical Products and Equipment,0,0,0,1,-14,0,1,0,0,0,12800,3674.3,2566.5,-0.6,-100.2,-141.2,6605.1,3674
+948,Shift4 Payments,FOUR,Business Services,Financial Data Services,1,1,0,1,0,0,0,0,0,0,3030,5694.7,2564.8,28.7,86.2,14.8,3387.8,5695
+949,Talen Energy,TLNE,Energy,Energy,0,0,0,0,0,0,0,0,0,0,2000,5569.4,2554,-17.3,,,7121,5569
+950,Carpenter Tech0logy,CRS,Materials,Metals,1,0,0,1,0,0,0,0,0,0,4500,3529,2550.3,38.9,56.4,,3053.9,3529
+951,WEX,WEX,Business Services,Financial Data Services,1,0,1,1,0,0,0,0,0,0,7200,9913.3,2548,8.4,266.6,32.3,13882.1,9913
+952,Old National Bancorp,ONB,Financials,Commercial Banks,1,0,0,0,0,0,0,0,0,0,3940,5096,2540.2,37,582,35.9,49089.8,5096
+953,AGNC Investment,AGNC,Financials,Real estate,1,0,0,1,0,0,0,0,0,0,53,6887.3,2538,,155,,71596,6887
+954,Wabash National,WNC,Motor Vehicles & Parts,Motor Vehicles & Parts,1,0,0,0,-5,0,1,0,0,0,6667,1349.9,2536.5,1.4,231.3,106,1362.8,1350
+955,MSCI,MSCI,Business Services,Financial Data Services,1,0,0,1,0,0,0,0,0,0,5794,44400.8,2528.9,12.5,1148.6,31.9,5518.2,44401
+956,Stagwell,STGW,Business Services,"Advertising, marketing",1,1,0,0,-46,0,1,0,0,0,10250,1670.4,2527.2,-6,0.1,-99.5,3767,1670
+957,Mativ Holdings,MATV,Chemicals,Chemicals,0,0,1,0,0,0,0,0,0,0,5400,1018.1,2516.9,16.1,-309.5,,2642.4,1018
+958,Belden,BDC,Industrials,"Electronics, Electrical Equip.",1,0,0,0,-36,0,1,0,0,0,8000,3804.9,2512.1,-4.1,242.8,-4.7,3240.2,3805
+959,Allegiant Travel,ALGT,Transportation,Airlines,1,0,0,1,0,0,0,0,0,0,6686,1375.3,2509.9,9,117.6,4617,4869.4,1375
+960,Dropbox,DBX,Tech0logy,Computer Software,1,1,0,0,0,0,0,0,0,0,2693,8358.8,2501.6,7.6,453.6,-18,2983.5,8359
+961,Exact Sciences,EXAS,Health Care,Pharmaceuticals,0,0,0,1,0,0,0,0,0,0,6550,12536.5,2499.8,19.9,-204.1,,6471.3,12537
+962,BWX Tech0logies,BWXT,Aerospace & Defense,Aerospace & Defense,1,0,0,1,0,0,0,0,0,0,7800,9380.2,2496.3,11.8,245.8,3.2,2747.1,9380
+963,Clear Channel Outdoor Hldgs.,CCO,Business Services,"Advertising, marketing",0,0,0,0,-10,0,1,0,0,0,3900,798.1,2489,0.3,-310.9,,4722.5,798
